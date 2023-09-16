@@ -16,7 +16,7 @@
             "correctOption": "Roger Federer"
         },
         {
-            "question": "Golf: Which European golfer is known as the "Spanish Armada" and has won numerous majors, including The Masters and The Open Championship?",
+            "question": "Golf: Which European golfer is known as the 'Spanish Armada' and has won numerous majors, including The Masters and The Open Championship?",
             "options": ["Sergio Garcia", "Miguel Ángel Jiménez", "José María Olazábal", "Seve Ballesteros"],
             "correctOption": "Seve Ballesteros"
         },
@@ -109,7 +109,7 @@
             "correctOption": "Mohamed Salah"
         },
         {
-            "question": "Golf: Which golfer was nicknamed the "Golden Bear" and holds the record for the most major championship wins?",
+            "question": "Golf: Which golfer was nicknamed the 'Golden Bear' and holds the record for the most major championship wins?",
             "options": ["Arnold Palmer", "Gary Player", "Jack Nicklaus", "Tom Watson"],
             "correctOption": "Jack Nicklaus"
         },
@@ -124,6 +124,7 @@
             "correctOption": "Jordan Spieth"
         }
     ],
+    
     "hard": [
         {
             "question": "Which country has won the most FIFA World Cup titles?",
