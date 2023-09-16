@@ -106,7 +106,7 @@ function checkAnswer(selectedOption, correctOption) {
             button.style.backgroundColor = ""; // Reset button colors
             button.disabled = false; // Re-enable buttons
         });
-    }, 1000); // Delay for 1 second (adjust as needed)
+    }, 2000); // Delay for 2 second
 }
 
 // Function To End Quiz
