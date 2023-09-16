@@ -34,9 +34,14 @@ h1 {
 .difficulty button {
     padding: 10px 20px;
     font-size: 18px;
-    margin: 10px;
+    background-color: rgb(64, 89, 253);
+    color: #fff;
+    border: solid 1px ;
+    border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
+
 
 .quiz {
     margin-top: 20px;
