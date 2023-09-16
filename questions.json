@@ -1,7 +1,7 @@
 {
     "easy": [
         {
-            "question": "Formula 1: Which British driver has the most Formula 1 World Championships to his name?",
+            "question": "Which British driver has the most Formula 1 World Championships to his name?",
             "options": ["Lewis Hamilton", "Jenson Button", "Nigel Mansell", "Damon Hill"],
             "correctOption": "Lewis Hamilton"
         },
@@ -11,52 +11,52 @@
             "correctOption": "London, United Kingdom"
         },
         {
-            "question": "Tennis: Who is the most successful male tennis player in Wimbledon history?",
+            "question": "Who is the most successful male tennis player in Wimbledon history?",
             "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
             "correctOption": "Roger Federer"
         },
         {
-            "question": "Golf: Which European golfer is known as the 'Spanish Armada' and has won numerous majors, including The Masters and The Open Championship?",
+            "question": "Which European golfer is known as the 'Spanish Armada' and has won numerous majors, including The Masters and The Open Championship?",
             "options": ["Sergio Garcia", "Miguel Ángel Jiménez", "José María Olazábal", "Seve Ballesteros"],
             "correctOption": "Seve Ballesteros"
         },
         {
-            "question": "Rugby: Which Six Nations team represents Wales in international rugby?",
+            "question": "Which Six Nations team represents Wales in international rugby?",
             "options": ["The Red Roses", "The Shamrocks", "The Dragons", "The Pumas"],
             "correctOption": "The Dragons"
         },  
         {
-            "question": "Cricket: In cricket, which European country competes as a Full Member of the International Cricket Council (ICC)?",
+            "question": "In cricket, which European country competes as a Full Member of the International Cricket Council (ICC)?",
             "options": ["England", "Ireland", "Scotland", "Netherlands"],
             "correctOption": "England"
         },
         {
-            "question": "Winter Sports: Which European country is famous for hosting the annual Four Hills Tournament in ski jumping?",
+            "question": "Which European country is famous for hosting the annual Four Hills Tournament in ski jumping?",
             "options": ["Norway", "Switzerland", "Germany", "Austria"],
             "correctOption": "Austria"
         },
         {
-            "question": "Football (Soccer): Which country has won the most FIFA World Cup titles in Europe?",
+            "question": "Which country has won the most FIFA World Cup titles in Europe?",
             "options": ["Germany", "Italy", "France", "England"],
             "correctOption": "Italy"
         },
         {
-            "question": "Basketball: Which NBA team is known for its iconic green and white uniforms and is based in Boston?",
+            "question": "Which NBA team is known for its iconic green and white uniforms and is based in Boston?",
             "options": ["Los Angeles Lakers", "Miami Heat", "Boston Celtics", "Chicago Bulls"],
             "correctOption": "Boston Celtics"
         },
         {
-            "question": "Soccer (Football): Which country is known as the 'Seleção' and has won the FIFA World Cup a record five times?",
+            "question": "Which country is known as the 'Seleção' and has won the FIFA World Cup a record five times?",
             "options": ["Brazil", "Germany", "Argentina", "Italy"],
             "correctOption": "Brazil"
         },
         {
-            "question": "Athletics: Who is the world-record holder in the men's 100-meter sprint, often regarded as the fastest man in the world?",
+            "question": "Who is the world-record holder in the men's 100-meter sprint, often regarded as the fastest man in the world?",
             "options": ["Carl Lewis", "Jesse Owens", "Ben Johnson", "Usain Bolt"],
             "correctOption": "Usain Bolt"
         },
         {
-            "question": "Formula 1: Which driver, known as 'The Iceman,' hails from Finland and won the Formula 1 World Championship in 2007?",
+            "question": "Which driver, known as 'The Iceman,' hails from Finland and won the Formula 1 World Championship in 2007?",
             "options": ["Michael Schumacher", " Lewis Hamilton", "Kimi Räikkönen", "Sebastian Vettel"],
             "correctOption": "Kimi Räikkönen"
         }                   
@@ -69,42 +69,42 @@
             "correctOption": "Kareem Abdul-Jabbar"
         },
         {
-            "question": "Cricket: Who holds the record for the most runs scored in a single Test cricket inning, with 400 not out?",
+            "question": "Who holds the record for the most runs scored in a single Test cricket inning, with 400 not out?",
             "options": ["Sachin Tendulkar", "Brian Lara", "Ricky Ponting", "Don Bradman"],
             "correctOption": "Brian Lara"
         },
         {
-            "question": "Soccer (Football): Which country won the UEFA European Championship in 2016?",
+            "question": "Which country won the UEFA European Championship in 2016?",
             "options": ["France", "Portugal", "Germany", "Spain"],
             "correctOption": "Portugal"
         },
         {
-            "question": "Formula 1: Who was the youngest Formula 1 World Champion when he won the title in 2005?",
+            "question": "Who was the youngest Formula 1 World Champion when he won the title in 2005?",
             "options": ["Sebastian Vettel", "Lewis Hamilton", "Fernando Alonso", "Michael Schumacher"],
             "correctOption": "Fernando Alonso"
         },
         {
-            "question": "Basketball: Who is the NBA's all-time assists leader?",
+            "question": "Who is the NBA's all-time assists leader?",
             "options": ["Magic Johnson", "Steve Nash", "John Stockton", "Chris Paul"],
             "correctOption": "John Stockton"
         },
         {
-            "question": "Tennis: Which male tennis player has won the most Australian Open titles?",
+            "question": "Which male tennis player has won the most Australian Open titles?",
             "options": ["Novak Djokovic", "Roger Federer", "Rafael Nadal", "Andre Agassi"],
             "correctOption": "Novak Djokovic"
         },
         {
-            "question": "Athletics: Who set the world record for the men's marathon with a time of 2:01:39 in 2018, a record that still stands as of 2023?",
+            "question": "Who set the world record for the men's marathon with a time of 2:01:39 in 2018, a record that still stands as of 2023?",
             "options": ["Eliud Kipchoge", "Dennis Kipruto Kimetto", "Wilson Kipsang", "Haile Gebrselassie"],
             "correctOption": "Eliud Kipchoge"
         },
         {
-            "question": "Formula 1: Which team has won the most Constructors' Championships in Formula 1 history?",
+            "question": "Which team has won the most Constructors' Championships in Formula 1 history?",
             "options": ["Ferrari", "Mercedes", "Red Bull Racing", "Williams"],
             "correctOption": "Mercedes"
         },
         {
-            "question": "Soccer (Football): Which player is known as 'The Egyptian King' and plays for Liverpool FC?",
+            "question": "Which player is known as 'The Egyptian King' and plays for Liverpool FC?",
             "options": ["Mohamed Salah", "Sadio Mané", "Roberto Firmino", "Virgil van Dijk"],
             "correctOption": "Mohamed Salah"
         },
@@ -114,12 +114,12 @@
             "correctOption": "Jack Nicklaus"
         },
         {
-            "question": "Cricket: Which bowler holds the record for the most wickets taken in Test cricket as of 2023?",
+            "question": "Which bowler holds the record for the most wickets taken in Test cricket as of 2023?",
             "options": ["Muttiah Muralitharan", "Shane Warne", "James Anderson", "Anil Kumble"],
             "correctOption": "James Anderson"
         },
         {
-            "question": "Golf: Who won the 2023 Masters Tournament?",
+            "question": "Who won the 2023 Masters Tournament?",
             "options": ["Tiger Woods", "Jordan Spieth", "Rory McIlroy", "Justin Thomas"],
             "correctOption": "Jordan Spieth"
         }

@@ -63,12 +63,44 @@ function setQuestion() {
 // Function To Check The Correct Answer
 function checkAnswer(selectedOption) {
     const currentQuestion = questions[currentDifficulty][currentQuestionIndex];
+    const buttons = optionsElement.querySelectorAll("button");
+
+    // Disable all buttons to prevent further clicks
+    buttons.forEach((button) => {
+        button.disabled = true;
+    });
+
     if (selectedOption === currentQuestion.correctOption) {
+        // If the selected answer is correct, change its color to green
+        buttons.forEach((button) => {
+            if (button.textContent === selectedOption) {
+                button.style.backgroundColor = "green";
+            }
+        });
         score++;
+    } else {
+        // If the selected answer is incorrect, change its color to red
+        buttons.forEach((button) => {
+            if (button.textContent === selectedOption) {
+                button.style.backgroundColor = "red";
+            }
+            if (button.textContent === currentQuestion.correctOption) {
+                button.style.backgroundColor = "green"; // Change the correct answer to green
+            }
+        });
     }
+
     currentQuestionIndex++;
     scoreElement.textContent = `Score: ${score}`;
-    setQuestion();
+
+    // Delay showing the next question to allow time for color change
+    setTimeout(() => {
+        setQuestion();
+        buttons.forEach((button) => {
+            button.style.backgroundColor = ""; // Reset button colors
+            button.disabled = false; // Re-enable buttons
+        });
+    }, 2000); // Delay for 2 seconds 
 }
 
 // Function To End Quiz
