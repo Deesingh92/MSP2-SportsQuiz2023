@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Quiz 2023</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sports Quiz</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Sports Quiz</h1>
+        <div class="difficulty">
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+        <div class="quiz">
+            <div id="question"></div>
+            <div id="options"></div>
+            <button id="next" style="display: none;">Next</button>
+        </div>
+        <div id="score">Score: 0</div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
