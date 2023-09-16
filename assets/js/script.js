@@ -5,6 +5,10 @@ const scoreElement = document.getElementById("score");
 const difficultyButtons = document.querySelectorAll(".difficulty button");
 const startGameButton = document.getElementById("start-game");
 
+// Audio elements for correct and incorrect answers
+const correctAudio = new Audio("../assets/audio/correct.mp3"); 
+const incorrectAudio = new Audio("../assets/audio/incorrect.mp3"); 
+
 let currentDifficulty = "easy";
 let currentQuestionIndex = 0;
 let score = 0;
@@ -55,14 +59,13 @@ function setQuestion() {
     currentQuestion.options.forEach((option) => {
         const button = document.createElement("button");
         button.textContent = option;
-        button.addEventListener("click", () => checkAnswer(option));
+        button.addEventListener("click", () => checkAnswer(option, currentQuestion.correctOption));
         optionsElement.appendChild(button);
     });
 }
 
 // Function To Check The Correct Answer
-function checkAnswer(selectedOption) {
-    const currentQuestion = questions[currentDifficulty][currentQuestionIndex];
+function checkAnswer(selectedOption, correctOption) {
     const buttons = optionsElement.querySelectorAll("button");
 
     // Disable all buttons to prevent further clicks
@@ -70,8 +73,9 @@ function checkAnswer(selectedOption) {
         button.disabled = true;
     });
 
-    if (selectedOption === currentQuestion.correctOption) {
-        // If the selected answer is correct, change its color to green
+    if (selectedOption === correctOption) {
+        // If the selected answer is correct, play the correct sound and change its color to green
+        correctAudio.play();
         buttons.forEach((button) => {
             if (button.textContent === selectedOption) {
                 button.style.backgroundColor = "green";
@@ -79,12 +83,14 @@ function checkAnswer(selectedOption) {
         });
         score++;
     } else {
-        // If the selected answer is incorrect, change its color to red
+        // If the selected answer is incorrect, reset the incorrect sound and play it, change its color to red, and highlight the correct answer
+        incorrectAudio.currentTime = 0; // Reset the incorrect sound to the beginning
+        incorrectAudio.play();
         buttons.forEach((button) => {
             if (button.textContent === selectedOption) {
                 button.style.backgroundColor = "red";
             }
-            if (button.textContent === currentQuestion.correctOption) {
+            if (button.textContent === correctOption) {
                 button.style.backgroundColor = "green"; // Change the correct answer to green
             }
         });
@@ -100,7 +106,7 @@ function checkAnswer(selectedOption) {
             button.style.backgroundColor = ""; // Reset button colors
             button.disabled = false; // Re-enable buttons
         });
-    }, 2000); // Delay for 2 seconds 
+    }, 1000); // Delay for 1 second (adjust as needed)
 }
 
 // Function To End Quiz
