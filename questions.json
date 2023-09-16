@@ -129,7 +129,7 @@
             "question": "Which country has won the most FIFA World Cup titles?",
             "options": ["Brazil", "Germany", "Italy", "Argentina"],
             "correctOption": "Brazil"
-        },
+        }
        
     ]
 }

@@ -16,5 +16,17 @@ fetch("questions.json")
         questions.easy = data.easy;
         questions.medium = data.medium;
         questions.hard = data.hard;
-        setQuestion(questions[currentDifficulty][currentQuestionIndex]);
     });
+
+function setQuestion() {
+    const currentQuestion = questions[currentDifficulty][currentQuestionIndex];
+    questionElement.textContent = currentQuestion.question;
+    optionsElement.innerHTML = "";
+    currentQuestion.options.forEach((option) => {
+        const button = document.createElement("button");
+        button.textContent = option;
+        button.addEventListener("click", () => checkAnswer(option));
+        optionsElement.appendChild(button);
+    });
+}
+
