@@ -86,17 +86,25 @@ nextButton.addEventListener("click", () => {
 
 difficultyButtons.forEach((button) => {
     button.addEventListener("click", () => {
-        currentDifficulty = button.id;
-        currentQuestionIndex = 0;
-        score = 0;
-        loadQuestions();
-        nextButton.style.display = "block";
-        scoreElement.textContent = `Score: ${score}`;
-        startGameButton.style.display = "none"; // Hide the Start Game button when difficulty changes
+        if (gameStarted) {
+            currentDifficulty = button.id;
+            currentQuestionIndex = 0;
+            score = 0;
+            loadQuestions();
+            nextButton.style.display = "block";
+            scoreElement.textContent = `Score: ${score}`;
+            document.getElementById("info").style.display = "none"; // Hide the instructions when difficulty changes
+        } else {
+            alert("Please start the game first by clicking 'Start Game'");
+        }
     });
 });
 
-startGameButton.addEventListener("click", startGame);
+startGameButton.addEventListener("click", () => {
+    startGame();
+    document.getElementById("info").style.display = "none"; // Hide the instructions when the game starts
+    nextButton.style.display = "block"; // Show the Next button when the game starts
+});
 
 // Function to start the game
 function startGame() {

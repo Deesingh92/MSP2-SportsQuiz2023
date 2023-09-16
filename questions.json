@@ -127,10 +127,64 @@
     
     "hard": [
         {
-            "question": "Which country has won the most FIFA World Cup titles?",
-            "options": ["Brazil", "Germany", "Italy", "Argentina"],
-            "correctOption": "Brazil"
+            "question": "In the history of the UEFA Champions League, which club has the most titles?",
+            "options": ["Manchester United", "FC Barcelona", "Real Madrid", "Bayern Munich"],
+            "correctOption": "Real Madrid"
+        },
+        {
+            "question": "Which golfer famously completed the 'Tiger Slam' by winning all four major championships consecutively in 2000-2001?",
+            "options": ["Phil Mickelson", "Rory McIlroy", "Jordan Spieth", "Tiger Woods"],
+            "correctOption": "Tiger Woods"
+        },
+        {
+            "question": "Which team holds the longest winning streak in NBA history?",
+            "options": ["Chicago Bulls", "Los Angeles Lakers", "Boston Celtics", "Golden State Warriors"],
+            "correctOption": "Los Angeles Lakers"
+        },
+        {
+            "question": "Who is the only boxer to win world titles in eight different weight divisions?",
+            "options": ["Muhammad Ali", "Mike Tyson", "Manny Pacquiao", "Floyd Mayweather Jr."],
+            "correctOption": "Manny Pacquiao"
+        },
+        {
+            "question": "Who is the only boxer to win world titles in eight different weight divisions?",
+            "options": ["Muhammad Ali", "Mike Tyson", "Manny Pacquiao", "Floyd Mayweather Jr."],
+            "correctOption": "Manny Pacquiao"
+        },
+        {
+            "question": "In which year did the first FIFA World Cup take place?",
+            "options": ["1924", "1930", "1950", "1966"],
+            "correctOption": "1930"
+        },
+        {
+            "question": "Which athlete holds the record for the most Olympic gold medals in history?",
+            "options": ["Usain Bolt", "Michael Phelps", "Serena Williams", "Simone Biles"],
+            "correctOption": "Michael Phelps"
+        },
+        {
+            "question": "Which team holds the longest winning streak in NBA history?",
+            "options": ["Chicago Bulls", "Los Angeles Lakers", "Boston Celtics", "Golden State Warriors"],
+            "correctOption": "Los Angeles Lakers"
+        },
+        {
+            "question": "In which year did the Chicago Cubs win their most recent World Series before their 2016 championship?",
+            "options": ["1924", "1945", "1984", "2008"],
+            "correctOption": "1945"
+        },
+        {
+            "question": "Which female tennis player was known as the 'Black Widow' for her dominance in the 1950s and 1960s?",
+            "options": ["Maria Bueno", "Althea Gibson", "Martina Navratilova", "Billie Jean King"],
+            "correctOption": "Althea Gibson"
+        },
+        {
+            "question": "Which country hosted the 2019 Rugby World Cup?",
+            "options": ["New Zealand", "South Africa", "England", "Japan"],
+            "correctOption": "Japan"
+        },
+        {
+            "question": "Who is the only player to have won five Ballon d'Or awards as of 2023?",          
+            "options": ["Cristiano Ronaldo", "Lionel Messi","Neymar", "Kaka"],
+            "correctOption": "Lionel Messi"
         }
-       
     ]
 }
