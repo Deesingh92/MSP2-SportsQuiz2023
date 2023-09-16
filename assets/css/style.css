@@ -30,7 +30,7 @@ h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
-
+/* Styles for the difficulty buttons */
 .difficulty button {
     padding: 10px 20px;
     font-size: 18px;
@@ -43,30 +43,48 @@ h1 {
     margin: 10px;
 }
 
-
+/* Styles for the quiz */
 .quiz {
     margin-top: 20px;
 }
 
+/* Styles for the questions */
 #question {
-    font-size: 28px;
+    font-size: 34px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #131359;
-
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
 }
 
+/* Styles for the answer options */
+
 #options button {
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 18px;
-    background-color: rgb(64, 89, 253);
-    color: #fff;
+    background-color: #fff;
+    color: #131359;;
     border: solid 1px ;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
     margin: 30px;
+    font-weight: 700;
 }
+
+/* Styles for the correct answer */
+.correct-answer {
+    background-color: #4CAF50; /* Green */
+    color: #fff; /* White */
+}
+
+/* Styles for the incorrect answer */
+.incorrect-answer {
+    background-color: #FF5733; /* Red */
+    color: #fff; /* White */
+}
+/* Styles for the next button */
 
 #next {
     padding: 10px 20px;
@@ -80,7 +98,7 @@ h1 {
     margin: 0 auto;
     display: block;
 }
-
+/* Styles for the score area */
 #score {
     font-size: 24px;
     font-weight: bold;
