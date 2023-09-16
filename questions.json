@@ -59,13 +59,77 @@
             "question": "Formula 1: Which driver, known as 'The Iceman,' hails from Finland and won the Formula 1 World Championship in 2007?",
             "options": ["Michael Schumacher", " Lewis Hamilton", "Kimi Räikkönen", "Sebastian Vettel"],
             "correctOption": "Kimi Räikkönen"
-        },                    
+        }                   
     ],
+
     "medium": [
         {
             "question": "Who is the all-time leading scorer in NBA history?",
             "options": ["LeBron James", "Kareem Abdul-Jabbar", "Michael Jordan", "Kobe Bryant"],
             "correctOption": "Kareem Abdul-Jabbar"
         },
-        
+        {
+            "question": "Cricket: Who holds the record for the most runs scored in a single Test cricket inning, with 400 not out?",
+            "options": ["Sachin Tendulkar", "Brian Lara", "Ricky Ponting", "Don Bradman"],
+            "correctOption": "Brian Lara"
+        },
+        {
+            "question": "Soccer (Football): Which country won the UEFA European Championship in 2016?",
+            "options": ["France", "Portugal", "Germany", "Spain"],
+            "correctOption": "Portugal"
+        },
+        {
+            "question": "Formula 1: Who was the youngest Formula 1 World Champion when he won the title in 2005?",
+            "options": ["Sebastian Vettel", "Lewis Hamilton", "Fernando Alonso", "Michael Schumacher"],
+            "correctOption": "Fernando Alonso"
+        },
+        {
+            "question": "Basketball: Who is the NBA's all-time assists leader?",
+            "options": ["Magic Johnson", "Steve Nash", "John Stockton", "Chris Paul"],
+            "correctOption": "John Stockton"
+        },
+        {
+            "question": "Tennis: Which male tennis player has won the most Australian Open titles?",
+            "options": ["Novak Djokovic", "Roger Federer", "Rafael Nadal", "Andre Agassi"],
+            "correctOption": "Novak Djokovic"
+        },
+        {
+            "question": "Athletics: Who set the world record for the men's marathon with a time of 2:01:39 in 2018, a record that still stands as of 2023?",
+            "options": ["Eliud Kipchoge", "Dennis Kipruto Kimetto", "Wilson Kipsang", "Haile Gebrselassie"],
+            "correctOption": "Eliud Kipchoge"
+        },
+        {
+            "question": "Formula 1: Which team has won the most Constructors' Championships in Formula 1 history?",
+            "options": ["Ferrari", "Mercedes", "Red Bull Racing", "Williams"],
+            "correctOption": "Mercedes"
+        },
+        {
+            "question": "Soccer (Football): Which player is known as 'The Egyptian King' and plays for Liverpool FC?",
+            "options": ["Mohamed Salah", "Sadio Mané", "Roberto Firmino", "Virgil van Dijk"],
+            "correctOption": "Mohamed Salah"
+        },
+        {
+            "question": "Golf: Which golfer was nicknamed the "Golden Bear" and holds the record for the most major championship wins?",
+            "options": ["Arnold Palmer", "Gary Player", "Jack Nicklaus", "Tom Watson"],
+            "correctOption": "Jack Nicklaus"
+        },
+        {
+            "question": "Cricket: Which bowler holds the record for the most wickets taken in Test cricket as of 2023?",
+            "options": ["Muttiah Muralitharan", "Shane Warne", "James Anderson", "Anil Kumble"],
+            "correctOption": "James Anderson"
+        },
+        {
+            "question": "Golf: Who won the 2023 Masters Tournament?",
+            "options": ["Tiger Woods", "Jordan Spieth", "Rory McIlroy", "Justin Thomas"],
+            "correctOption": "Jordan Spieth"
+        }
     ],
+    "hard": [
+        {
+            "question": "Which country has won the most FIFA World Cup titles?",
+            "options": ["Brazil", "Germany", "Italy", "Argentina"],
+            "correctOption": "Brazil"
+        },
+       
+    ]
+}
