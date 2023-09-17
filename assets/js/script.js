@@ -5,9 +5,9 @@ const scoreElement = document.getElementById("score");
 const difficultyButtons = document.querySelectorAll(".difficulty button");
 const startGameButton = document.getElementById("start-game");
 
-// Add audio elements for correct and incorrect answers with their sources
-const correctAudio = new Audio("../assets/js/correct.mp3");  
-const incorrectAudio = new Audio("../assets/js/incorrect.mp3"); 
+// Audio elements for correct and incorrect answers with their sources
+const correctAudio = new Audio("../assets/audio/correct.mp3");  
+const incorrectAudio = new Audio("../assets/audio/incorrect.mp3"); 
 
 let currentDifficulty = "easy";
 let currentQuestionIndex = 0;
@@ -45,7 +45,7 @@ function randomizeQuestions() {
     }
 }
 
-// Function to shuffle an array (Fisher-Yates shuffle)
+// Function to shuffle an array (Fisher-Yates shuffle) source:https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -67,12 +67,12 @@ function setQuestion() {
     const currentQuestion = unusedQuestions[randomIndex];
     usedQuestions[currentDifficulty].push(currentQuestion);
 
-    // Check if all questions have been used, and reset the usedQuestions array if needed
+    // Check if all questions have been used
     if (usedQuestions[currentDifficulty].length === questions[currentDifficulty].length) {
         usedQuestions[currentDifficulty] = [];
     }
 
-    // Rest of the code remains the same
+    // 
     questionElement.textContent = currentQuestion.question;
     optionsElement.innerHTML = "";
     currentQuestion.options.forEach((option) => {
