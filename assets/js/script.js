@@ -5,9 +5,9 @@ const scoreElement = document.getElementById("score");
 const difficultyButtons = document.querySelectorAll(".difficulty button");
 const startGameButton = document.getElementById("start-game");
 
-// Audio elements for correct and incorrect answers
-const correctAudio = new Audio("../assets/audio/correct.mp3"); 
-const incorrectAudio = new Audio("../assets/audio/incorrect.mp3"); 
+// Add audio elements for correct and incorrect answers with their sources
+const correctAudio = new Audio("../assets/js/correct.mp3");  
+const incorrectAudio = new Audio("../assets/js/incorrect.mp3"); 
 
 let currentDifficulty = "easy";
 let currentQuestionIndex = 0;
@@ -15,6 +15,13 @@ let score = 0;
 let questions = {};
 
 let gameStarted = false;
+
+// Define an object to keep track of used questions for each difficulty level
+const usedQuestions = {
+    easy: [],
+    medium: [],
+    hard: [],
+};
 
 // Function to fetch and load questions from the JSON file
 function loadQuestions() {
@@ -49,11 +56,23 @@ function shuffleArray(array) {
 
 // Function To Set Current Question
 function setQuestion() {
-    const currentQuestion = questions[currentDifficulty][currentQuestionIndex];
-    if (!currentQuestion) {
+    const unusedQuestions = questions[currentDifficulty].filter((question) => !usedQuestions[currentDifficulty].includes(question));
+    if (unusedQuestions.length === 0) {
         endQuiz();
         return;
     }
+
+    // Select a random question from the unused questions
+    const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
+    const currentQuestion = unusedQuestions[randomIndex];
+    usedQuestions[currentDifficulty].push(currentQuestion);
+
+    // Check if all questions have been used, and reset the usedQuestions array if needed
+    if (usedQuestions[currentDifficulty].length === questions[currentDifficulty].length) {
+        usedQuestions[currentDifficulty] = [];
+    }
+
+    // Rest of the code remains the same
     questionElement.textContent = currentQuestion.question;
     optionsElement.innerHTML = "";
     currentQuestion.options.forEach((option) => {
@@ -106,7 +125,7 @@ function checkAnswer(selectedOption, correctOption) {
             button.style.backgroundColor = ""; // Reset button colors
             button.disabled = false; // Re-enable buttons
         });
-    }, 2000); // Delay for 2 second
+    }, 2000); // Delay for 2 seconds between questions
 }
 
 // Function To End Quiz
