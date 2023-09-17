@@ -87,7 +87,7 @@ function setQuestion() {
 function checkAnswer(selectedOption, correctOption) {
     const buttons = optionsElement.querySelectorAll("button");
 
-    // Disable all buttons to prevent further clicks
+// Disable all buttons to prevent further clicks
     buttons.forEach((button) => {
         button.disabled = true;
     });
