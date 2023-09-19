@@ -62,16 +62,16 @@ function initMap() {
     });
 
     var stadiums = [
-    { name: 'Narendra Modi Stadium (Ahmedabad, Gujarat, India)', lat: 23.0715, lng: 72.5952, capacity: 132000 },
-    { name: 'Rungrado May Day Stadium (Pyongyang, North Korea)', lat: 39.0382, lng: 125.7625, capacity: 114000 },
-    { name: 'Michigan Stadium (Ann Arbor, Michigan, USA)', lat: 42.2654, lng: -83.7487, capacity: 107601 },
-    { name: 'Beaver Stadium (State College, Pennsylvania, USA)', lat: 40.8136, lng: -77.8569, capacity: 106572 },
-    { name: 'Ohio Stadium (Columbus, Ohio, USA)', lat: 40.0017, lng: -83.0197, capacity: 102780 },
-    { name: 'Kyle Field (College Station, Texas, USA)', lat: 30.6102, lng: -96.3398, capacity: 102733 },
-    { name: 'Tiger Stadium (Baton Rouge, Louisiana, USA)', lat: 30.4120, lng: -91.1837, capacity: 102321 },
-    { name: 'Neyland Stadium (Knoxville, Tennessee, USA)', lat: 35.9553, lng: -83.9250, capacity: 101915 },
-    { name: 'Darrell K. Royal-Texas Memorial Stadium (Austin, Texas, USA)', lat: 30.2831, lng: -97.7322, capacity: 100119 },
-    { name: 'Bryant Denny Stadium (Tuscaloosa, Alabama, USA)', lat: 33.2144, lng: -87.5469, capacity: 100077 },
+    { name: 'Narendra Modi Stadium (Ahmedabad, Gujarat, India)', lat: 23.0715, lng: 72.5952, capacity: 132000, website: 'https://www.topendsports.com/resources/stadiums/india/gujarat-ahmedabad-sardar-patel.htm' },
+    { name: 'Rungrado May Day Stadium (Pyongyang, North Korea)', lat: 39.0382, lng: 125.7625, capacity: 114000, website: 'https://www.topendsports.com/resources/stadiums/north-korea/pyongyang-rungrado-may-day.htm' },
+    { name: 'Michigan Stadium (Ann Arbor, Michigan, USA)', lat: 42.2654, lng: -83.7487, capacity: 107601, website: 'https://www.topendsports.com/resources/stadiums/usa/michigan.htm' },
+    { name: 'Beaver Stadium (State College, Pennsylvania, USA)', lat: 40.8136, lng: -77.8569, capacity: 106572, website: 'https://www.topendsports.com/resources/stadiums/usa/beaver-pennsylvania.htm' },
+    { name: 'Ohio Stadium (Columbus, Ohio, USA)', lat: 40.0017, lng: -83.0197, capacity: 102780, website: 'https://www.topendsports.com/resources/stadiums/usa/ohio.htm' },
+    { name: 'Kyle Field (College Station, Texas, USA)', lat: 30.6102, lng: -96.3398, capacity: 102733, website: 'hhttps://www.topendsports.com/resources/stadiums/usa/kyle-field.htm' },
+    { name: 'Tiger Stadium (Baton Rouge, Louisiana, USA)', lat: 30.4120, lng: -91.1837, capacity: 102321, website: 'https://www.topendsports.com/resources/stadiums/usa/tiger-stadium.htm' },
+    { name: 'Neyland Stadium (Knoxville, Tennessee, USA)', lat: 35.9553, lng: -83.9250, capacity: 101915, website: 'https://www.topendsports.com/resources/stadiums/usa/neyland-noxville.htm' },
+    { name: 'Darrell K. Royal-Texas Memorial Stadium (Austin, Texas, USA)', lat: 30.2831, lng: -97.7322, capacity: 100119, website: 'https://www.topendsports.com/resources/stadiums/usa/royal-texas-memorial-austin.htm' },
+    { name: 'Bryant Denny Stadium (Tuscaloosa, Alabama, USA)', lat: 33.2144, lng: -87.5469, capacity: 100077, website: 'https://www.topendsports.com/resources/stadiums/usa/bryantdenny.htm' },
 ];
 var markers = [];
     for (var i = 0; i < stadiums.length; i++) {
@@ -79,7 +79,8 @@ var markers = [];
         var marker = new google.maps.Marker({
             position: { lat: stadium.lat, lng: stadium.lng },
             title: stadium.name,
-            capacity: stadium.capacity
+            capacity: stadium.capacity,
+            website: stadium.website
         });
         markers.push(marker);
 
@@ -87,7 +88,7 @@ var markers = [];
         google.maps.event.addListener(marker, 'click', (function(marker, stadium) {
             return function() {
                 var infoWindow = new google.maps.InfoWindow({
-                    content: '<strong>' + stadium.name + '</strong> - Capacity: ' + stadium.capacity
+                    content: '<strong>' + stadium.name + '</strong> - Capacity: ' + stadium.capacity + '<br><a href="' + stadium.website + '" target="_blank">Visit Website</a>'
                 });
                 infoWindow.open(map, marker);
             };
@@ -98,6 +99,7 @@ var markers = [];
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 }
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
