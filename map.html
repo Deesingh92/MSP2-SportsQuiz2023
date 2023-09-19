@@ -41,19 +41,27 @@
         </div>
 </footer>
 <script>
-      var stadiums = [
-    { name: 'Narendra Modi Stadium', lat: 41.8781, lng: -87.6298, capacity: 100000 },
-    { name: 'Stadium 2', lat: 34.0522, lng: -118.2437, capacity: 90000 },
-    
-];
+      
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 0, lng: 0 },
+        center: { lat: 30.6102, lng: -96.3398 }, 
         zoom: 2
     });
 
-    var markers = [];
+    var stadiums = [
+    { name: 'Narendra Modi Stadium (Ahmedabad, Gujarat, India)', lat: 23.0715, lng: 72.5952, capacity: 132000 },
+    { name: 'Rungrado May Day Stadium (Pyongyang, North Korea)', lat: 39.0382, lng: 125.7625, capacity: 114000 },
+    { name: 'Michigan Stadium (Ann Arbor, Michigan, USA)', lat: 42.2654, lng: -83.7487, capacity: 107601 },
+    { name: 'Beaver Stadium (State College, Pennsylvania, USA)', lat: 40.8136, lng: -77.8569, capacity: 106572 },
+    { name: 'Ohio Stadium (Columbus, Ohio, USA)', lat: 40.0017, lng: -83.0197, capacity: 102780 },
+    { name: 'Kyle Field (College Station, Texas, USA)', lat: 30.6102, lng: -96.3398, capacity: 102733 },
+    { name: 'Tiger Stadium (Baton Rouge, Louisiana, USA)', lat: 30.4120, lng: -91.1837, capacity: 102321 },
+    { name: 'Neyland Stadium (Knoxville, Tennessee, USA)', lat: 35.9553, lng: -83.9250, capacity: 101915 },
+    { name: 'Darrell K. Royal-Texas Memorial Stadium (Austin, Texas, USA)', lat: 30.2831, lng: -97.7322, capacity: 100119 },
+    { name: 'Bryant Denny Stadium (Tuscaloosa, Alabama, USA)', lat: 33.2144, lng: -87.5469, capacity: 100077 },
+];
+var markers = [];
     for (var i = 0; i < stadiums.length; i++) {
         var stadium = stadiums[i];
         var marker = new google.maps.Marker({
@@ -62,24 +70,28 @@ function initMap() {
             capacity: stadium.capacity
         });
         markers.push(marker);
+
+        // Add click event listener for each marker using a closure
+        google.maps.event.addListener(marker, 'click', (function(marker, stadium) {
+            return function() {
+                var infoWindow = new google.maps.InfoWindow({
+                    content: '<strong>' + stadium.name + '</strong> - Capacity: ' + stadium.capacity
+                });
+                infoWindow.open(map, marker);
+            };
+        })(marker, stadium));
     }
 
     var markerCluster = new MarkerClusterer(map, markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
-
-    // Sort the stadiums by capacity in descending order
-    stadiums.sort(function (a, b) {
-        return b.capacity - a.capacity;
-    });
-
-    // Display the top 10 stadiums by capacity
-    for (var i = 0; i < 10 && i < stadiums.length; i++) {
-        var stadium = stadiums[i];
-        console.log(stadium.name + ' - Capacity: ' + stadium.capacity);
-    }
 }
-google.maps.event.addDomListener(window, 'load', initMap);
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    initMap();
+});
+
 </script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS1jQ3BvlRCHgnrrrfYrIcSdp3B1TySOs&callback=initMap"></script>
