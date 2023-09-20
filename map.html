@@ -73,8 +73,8 @@ function initMap() {
     { name: 'Darrell K. Royal-Texas Memorial Stadium (Austin, Texas, USA)', lat: 30.2831, lng: -97.7322, capacity: 100119, website: 'https://www.topendsports.com/resources/stadiums/usa/royal-texas-memorial-austin.htm' },
     { name: 'Bryant Denny Stadium (Tuscaloosa, Alabama, USA)', lat: 33.2144, lng: -87.5469, capacity: 100077, website: 'https://www.topendsports.com/resources/stadiums/usa/bryantdenny.htm' },
 ];
-var markers = [];
-    for (var i = 0; i < stadiums.length; i++) {
+    var markers = [];
+        for (var i = 0; i < stadiums.length; i++) {
         var stadium = stadiums[i];
         var marker = new google.maps.Marker({
             position: { lat: stadium.lat, lng: stadium.lng },
@@ -88,7 +88,7 @@ var markers = [];
         google.maps.event.addListener(marker, 'click', (function(marker, stadium) {
             return function() {
                 var infoWindow = new google.maps.InfoWindow({
-                    content: '<strong>' + stadium.name + '</strong> - Capacity: ' + stadium.capacity + '<br><a href="' + stadium.website + '" target="_blank">Visit Website</a>'
+                    content: '<strong>' + stadium.name + '</strong> - Capacity: ' + stadium.capacity + '<br><a href="' + stadium.website + '" target="_blank">Infortmation</a>'
                 });
                 infoWindow.open(map, marker);
             };
