@@ -1,3 +1,4 @@
+
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 const nextButton = document.getElementById("next");
@@ -6,8 +7,8 @@ const difficultyButtons = document.querySelectorAll(".difficulty button");
 const startGameButton = document.getElementById("start-game");
 
 // Audio elements for correct and incorrect answers with their sources
-const correctAudio = new Audio("../assets/audio/correct.mp3");  
-const incorrectAudio = new Audio("../assets/audio/incorrect.mp3"); 
+const correctAudio = new Audio("../assets/audio/correct.mp3");
+const incorrectAudio = new Audio("../assets/audio/incorrect.mp3");
 
 let currentDifficulty = "easy";
 let currentQuestionIndex = 0;
@@ -16,7 +17,9 @@ let questions = {};
 
 let gameStarted = false;
 
-// Define an object to keep track of used questions for each difficulty level
+let questionsAsked = 0; // Counter for the number of questions asked
+
+
 const usedQuestions = {
     easy: [],
     medium: [],
@@ -45,7 +48,7 @@ function randomizeQuestions() {
     }
 }
 
-// Function to shuffle an array (Fisher-Yates shuffle) source:https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
+// Function to shuffle an array (Fisher-Yates shuffle) source: https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -57,7 +60,7 @@ function shuffleArray(array) {
 // Function To Set Current Question
 function setQuestion() {
     const unusedQuestions = questions[currentDifficulty].filter((question) => !usedQuestions[currentDifficulty].includes(question));
-    if (unusedQuestions.length === 0) {
+    if (unusedQuestions.length === 0 || questionsAsked >= 10) {
         endQuiz();
         return;
     }
@@ -72,7 +75,6 @@ function setQuestion() {
         usedQuestions[currentDifficulty] = [];
     }
 
-    // 
     questionElement.textContent = currentQuestion.question;
     optionsElement.innerHTML = "";
     currentQuestion.options.forEach((option) => {
@@ -81,19 +83,18 @@ function setQuestion() {
         button.addEventListener("click", () => checkAnswer(option, currentQuestion.correctOption));
         optionsElement.appendChild(button);
     });
+    questionsAsked++; // Increment the questionsAsked counter
 }
 
 // Function To Check The Correct Answer
 function checkAnswer(selectedOption, correctOption) {
     const buttons = optionsElement.querySelectorAll("button");
 
-// Disable all buttons to prevent further clicks
     buttons.forEach((button) => {
-        button.disabled = true;
+        button.disabled = true; // Disable all buttons to prevent further clicks
     });
 
     if (selectedOption === correctOption) {
-        // If the selected answer is correct, play the correct sound and change its color to green
         correctAudio.play();
         buttons.forEach((button) => {
             if (button.textContent === selectedOption) {
@@ -102,8 +103,7 @@ function checkAnswer(selectedOption, correctOption) {
         });
         score++;
     } else {
-        // If the selected answer is incorrect, reset the incorrect sound and play it, change its color to red, and highlight the correct answer
-        incorrectAudio.currentTime = 0; // Reset the incorrect sound to the beginning
+        incorrectAudio.currentTime = 0;
         incorrectAudio.play();
         buttons.forEach((button) => {
             if (button.textContent === selectedOption) {
@@ -118,14 +118,13 @@ function checkAnswer(selectedOption, correctOption) {
     currentQuestionIndex++;
     scoreElement.textContent = `Score: ${score}`;
 
-    // Delay showing the next question to allow time for color change
     setTimeout(() => {
         setQuestion();
         buttons.forEach((button) => {
-            button.style.backgroundColor = ""; // Reset button colors
-            button.disabled = false; // Re-enable buttons
+            button.style.backgroundColor = "";
+            button.disabled = false;
         });
-    }, 2000); // Delay for 2 seconds between questions
+    }, 2000);
 }
 
 // Function To End Quiz
@@ -147,10 +146,9 @@ difficultyButtons.forEach((button) => {
             currentDifficulty = button.id;
             currentQuestionIndex = 0;
             score = 0;
+            questionsAsked = 0; // Reset the questionsAsked counter
             loadQuestions();
             nextButton.style.display = "block";
-            scoreElement.textContent = `Score: ${score}`;
-            document.getElementById("info").style.display = "none"; // Hide the instructions when difficulty changes
         } else {
             alert("Please start the game first by clicking 'Start Game'");
         }
