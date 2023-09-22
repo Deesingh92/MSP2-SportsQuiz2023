@@ -1,4 +1,4 @@
-# Discover South Wales, Unveiling Nature's Treasures
+# Sports Quiz 2023
 
 ![Github last commit](https://img.shields.io/badge/last_commit-september-red
 )
@@ -15,15 +15,15 @@
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
-This website aims to provide information on what stunning landscape to explore within South Wales. This is particularly targeted at new visitors. It is centered around an interactive multiple choice quiz, aimed to tailor the users experiences to match them with their preferences and desires. It aims to be responsive across multiple devices.
+Our primary aim is to provide an engaging and educational platform where sports enthusiasts can challenge their knowledge, explore the world of sports through an interactive Arena Map, and foster a vibrant community of like-minded fans. We strive to create an inclusive and user-friendly environment that appeals to both newcomers and seasoned sports aficionados, promoting learning, competition, and the joy of sports trivia. With a commitment to accessibility, usability, and future enhancements, our goal is to make the Sports Quiz Website the go-to destination for sports enthusiasts seeking fun and knowledge.
 
-[View Discover South Wales on Github](https://github.com/ClaraR93/Discover-South-Wales)
+[View Sports Quiz 2023 on Github](https://github.com/Deesingh92/MSP2-SportsQuiz2023)
 
-[View the live website here](https://clarar93.github.io/Discover-South-Wales/index.html)
+[View the live website here](https://deesingh92.github.io/MSP2-SportsQuiz2023/)
 
 - - -
 
-- [Discover South Wales, Unveiling Nature's Treasures](#discover-south-wales-unveiling-natures-treasures)
+- [Sports Quiz 2023](#Sports-Quiz-2023)
   - [User Experience (UX)](#user-experience-ux)
     - [Initial Discussion](#initial-discussion)
       - [Key Information for the site](#key-information-for-the-site)
@@ -171,7 +171,7 @@ Our website leverages the Google Maps API to provide an immersive Arena Map expe
 
 ![Small switch palette from ColorSpace](assets/images/small-spot-palette.png)
 
-The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart below.
+The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart above.
 
 
 
@@ -179,13 +179,66 @@ The sports quiz uses this small spot palette, pulled from [ColorSpace](https://m
 
 I used Google Fonts for the following font:
 
-- 'Lato' for all text content across the website. This is a sans serif font.
-I picked this particular font as it was suggested on [Figma](https://www.figma.com/google-fonts/josefin-sans-font-pairings/#:~:text=Josefin%20Sans%20is%20an%20elegant>,One%2C%20Lato%2C%20and%20Playfair). The website states that 'Lato' would pair nicely with Josefins sans font, which is the primary font used for the logo on the home page. I wanted to keep it simple and consistent throughout the website, so opted for one style only to portray this.
+### Anton
+- Bold and Attention-Grabbing: "Anton" is a bold and eye-catching font with thick, heavy strokes. It can instantly capture the viewer's attention and make important elements, such as headings and titles, stand out on the page. This can be particularly effective in a sports-themed website where you want to convey energy and excitement.
 
+- Modern and Stylish: "Anton" has a modern and stylish appearance, which can give your website a contemporary and sophisticated look. This can be appealing to users who appreciate a trendy and visually pleasing design.
+
+- Easy Readability: Despite its boldness, "Anton" maintains good readability, especially at larger font sizes. This ensures that your headings and titles remain legible and impactful, which is important for user engagement.
+
+- Contrast: "Anton" can create a pleasing contrast when paired with a more straightforward and readable font for body text. This contrast helps in emphasizing key elements without sacrificing overall readability.
+
+- Personality and Branding: Fonts play a significant role in conveying the personality and branding of a website. "Anton" can convey characteristics such as strength, excitement, and a sense of adventure, which may align well with the theme of sports and competition.
+
+- Variety: Using "Anton" for headings and titles while using a different font for body text provides variety in typography, adding visual interest to your website's design.
+
+### Poppins
+
+- Readability: "Poppins" is known for its excellent readability, making it a great choice for body text and other content where readability is crucial. Its clean and straightforward design ensures that users can easily consume information without strain.
+
+- Versatility: "Poppins" is a versatile font that works well in a wide range of design contexts. It's suitable for both headings and body text, allowing you to maintain a consistent and aesthetically pleasing typography throughout your website.
+
+- Modern and Clean Aesthetic: "Poppins" has a modern and clean appearance, which can give your website a contemporary and professional look. This can be appealing to users who appreciate a minimalist and visually pleasing design.
+
+- Accessibility: Accessibility is a key consideration in web design. "Poppins" is designed with accessibility in mind, with well-defined letterforms and good contrast, making it easier for all users, including those with visual impairments, to read and navigate your content.
+
+- Multiple Weights and Styles: "Poppins" comes in a variety of weights and styles, providing flexibility in your typography choices. You can use different weights for headings, subheadings, and body text to create hierarchy and visual interest.
+
+- International Support: "Poppins" supports various languages and character sets, making it suitable for a global audience. This can be essential if your website targets users from diverse linguistic backgrounds.
+
+- Consistency: Consistency in typography helps create a cohesive and unified design. "Poppins" offers a consistent and harmonious style that can be maintained across different sections of your website.
+
+- Compatibility: "Poppins" is a web-safe font, meaning it's widely supported by web browsers and devices. This ensures that your chosen font will display consistently for most users.
+
+### Ubuntu
+
+Humanist Sans-Serif Design: "Ubuntu" is a humanist sans-serif font, which means it has a balanced and approachable design. This can contribute to a friendly and welcoming atmosphere on your website, making it more user-friendly.
+
+Readability: The font's design prioritizes readability, making it a suitable choice for body text and content-heavy sections of your website. Users can easily read and understand the text, which is essential for a quiz website where information is key.
+
+Neutral Aesthetic: "Ubuntu" has a neutral and unobtrusive aesthetic. It doesn't draw excessive attention to itself, allowing users to focus on the content and functionality of your website, such as the quiz questions and answers.
+
+Versatility: "Ubuntu" is a versatile font that works well in various design contexts. It can be used for both headings and body text, maintaining a consistent typography style throughout your website.
+
+Accessibility: Accessibility is a critical consideration in web design. "Ubuntu" offers good legibility and readability, which is important for users with visual impairments or reading difficulties.
+
+International Support: "Ubuntu" supports multiple languages and character sets, making it suitable for a global audience. If your website caters to users from diverse linguistic backgrounds, this font choice can be advantageous.
+
+Modern and Open Source: "Ubuntu" is a modern and open-source font, aligning with the principles of accessibility and inclusivity. It's freely available and widely supported, making it accessible to web designers and developers.
+
+Web Compatibility: "Ubuntu" is a web-safe font, meaning it's well-supported by most web browsers and devices, ensuring consistent display for your users.
+
+Consistency: Maintaining consistent typography across your website enhances its visual coherence and professionalism. "Ubuntu" can help you achieve this consistency.
+
+Personal Preference: Ultimately, font choices can also be influenced by personal preference and the overall aesthetic you wish to create for your website. If "Ubuntu" aligns with your vision, it can be a suitable choice.
+
+The decision to use the "Ubuntu" font should align with your website's design goals and the user experience you want to provide. It's a practical and readable option that can contribute to a positive and user-friendly design.
+
+
+Humanist Sans-Serif Design: I appreciate that "Ubuntu" has a humanist sans-serif design, which gives it a balanced and friendly appearance. This design choice contributes to a welcoming atmosphere on my website.
 ### Imagery
 
-All digital images in the results section, (excluding two images referenced in the [credit](#media) section), were taken by Clara Reynolds.
-The [Seamless Pattern Leaves](assets/images/background-print-image-compressed.webp) for the left and right border across all pages, and the [Hiking Trail Sketch](assets/images/background-hiking.webp) featured in the 404 error page, were both downloaded from [Pixabay](https://pixabay.com/). Content License allows users to use content for free and modify or adapt the content into new works.
+[Pexels](https://pexels.com/). Contents free images.
 
 ### Wireframes
 
@@ -215,17 +268,31 @@ The website consists of three pages, all of which are accessible from the naviga
 
 *All pages on the website have:*
 
-- A responsive navigation bar and navigation links across the header from left to right as followed - Home, Quiz, Map. On a mobile device, the navigation bar switches to a dropdown menu, taken from [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/components/dropdowns/), so that it is easier to view and navigate on a smaller screen.
-- When hovered over, each navigation link will change colour from black to a cream colour (used from the [small switch palette](docs/images/small-switch-palette.png)), to show what page the user is about to navigate to.
-- The footer consists of a headline encouraging users to connect with the website's Instagram page, followed by a font awesome icon underneath of the recognisable Instagram logo. When the icon is clicked on, this opens up in a separate browser to www.instgram.com. When hovered over, this link displays the beige colour again, keeping in theme with the small switch palette. There is copyright centered beneath the icon in a small font size.
-- Both header and footer contain a natural green/brown colour, pulled from the small switch palette as well.
 
-*Home Page:*
+- Navigation Menu: Include a navigation menu or header that allows users to easily move between different sections of your website. This menu should typically include links to the Home page, Arena Map, Quiz, and any other relevant sections.
 
-- The home page is a simple and elegant design, featuring a logo that I custom created on [Logo.com](https://logo.com/). The logo image includes a green silhouette of two trees inside a white silhouette of mountain tops, inside a matching green circle. Underneath this a slogan that reads “Discover South Wales” in green, with a tag-line of “Unveiling Nature's Treasures” directly below this. The logo is scaled down to fit mobile devices as well.
-- Underneath the logo are two heading titles with the questions “Visiting South Wales for the first time?” and “Ready to start exploring the great outdoors?”. These two headings are short and simple, designed to address the users needs of venturing to the area for the first time.
-- Below this I've added a simple div containing a discrete line that splits the page into 2 sections; the heading and quiz information.
-The quiz heading instructs  the user to take a short quiz on where to go. This is accompanied with a clear 'Start Quiz' button that navigates the user to the Quiz page. When hovered over the button creates a smooth transition from a green background to a mixture of green and brown, keeping in theme with the colour of the header and footer.
+- Footer: Include a footer at the bottom of each page with essential information, such as links to your social media profiles, copyright information, and perhaps a link to the homepage. It adds a professional touch and enhances user navigation.
+
+- Logo or Website Name: Display your website's logo or name prominently in the header section to reinforce brand identity and make it easy for users to identify your site.
+
+- Consistent Styling: Maintain a consistent look and feel across all pages by using the same color scheme, fonts, and overall design elements. This ensures visual coherence.
+
+- Call to Action (CTA): Include clear and consistent CTAs on each page, guiding users to take specific actions such as starting the quiz, exploring the Arena Map, or accessing additional content.
+
+- Responsive Design: Ensure that your website is responsive, meaning it adapts and looks great on various devices, including desktops, tablets, and smartphones. This is crucial for user experience.
+
+- Breadcrumb Navigation: Implement breadcrumb navigation to show users their current location within the website's structure and provide an easy way to backtrack.
+
+- Contact Information: If applicable, provide contact information or a contact form on pages where users may need assistance or have inquiries.
+
+- Loading Indicator: If your website contains content that might take a moment to load (e.g., images or interactive elements), consider adding a loading indicator to keep users informed and engaged during the wait.
+
+- Consistent Header and Footer Elements: Elements like your logo, navigation menu, and footer should remain consistent in their placement on each page, so users can easily find them.
+
+
+*Info Area:*
+
+- The "Info" section serves as your gateway to understanding how the Sports Quiz Website works. Here, you'll find step-by-step instructions on how to maximize your experience. Start by selecting your preferred difficulty level—easy, medium, or hard—from the home page. These levels offer varying degrees of challenge, so choose the one that suits your sports knowledge best. Once your difficulty level is set, the quiz will begin. You'll be presented with a series of sports-related questions, each with multiple-choice answer options. Carefully read each question and click on the answer you believe is correct. If you answer correctly, your score will increase, and you'll proceed to the next question. If you're unsure or make a mistake, don't worry; you can always learn from the questions and answers. Continue answering questions until you've completed the quiz for your chosen difficulty level. After the final question, you'll receive your quiz results, including your score.
 
 *Quiz Page:*
 Our sports quiz is not just a game; it's a journey through the exciting world of sports knowledge. The quiz challenges enthusiasts of all levels to test their expertise, recall legendary moments, and dive into the rich tapestry of sports history and culture. What sets our quiz apart is its unique integration with the Google Maps API, allowing users to explore iconic sports arenas worldwide. As you answer questions and advance through the quiz, you'll unlock the interactive Arena Map, where you can virtually visit legendary stadiums, access historical information, and learn fascinating facts about these sporting meccas. With a variety of difficulty levels, user-friendly design, and responsive functionality, our quiz offers an engaging and educational experience for sports fans, whether they're newcomers or die-hard enthusiasts. Join us in celebrating the love of sports and challenge yourself to become a sports trivia champion.
@@ -259,7 +326,7 @@ Our sports quiz is not just a game; it's a journey through the exciting world of
 
 - Community Forums: Expand the community aspect of the website by creating dedicated forums or discussion boards where users can share sports-related insights, stories, and opinions.
 
-1- Advanced Analytics: Implement analytics tools to gather user data and insights, helping you understand user behavior, preferences, and areas for improvement.
+- Advanced Analytics: Implement analytics tools to gather user data and insights, helping you understand user behavior, preferences, and areas for improvement.
 
 - Personalized Recommendations: Use user data to provide personalized quiz recommendations, content, and challenges based on individual interests and quiz history.
 
@@ -338,9 +405,8 @@ HTML, CSS and Javascript were used to create this website.
 
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://deesingh92.github.io/MSP2-SportsQuiz2023/) - To show the website on a range of devices.
 
-- Google Dev Tools - To troubleshoot and test various features, and solve issues with responsiveness and styling.
+- [Google Dev Tools] - To troubleshoot and test various features, and solve issues with responsiveness and styling.
 
-- [Color Hex](https://www.color-hex.com/color/79804f) - To find a lighter colour tint for the header and footer to pass the contrast checker.
 
 - [Favicon](https://favicon.io/) - Used timer emoji favicon for website.
 
