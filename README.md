@@ -13,7 +13,7 @@
 ![Github w3c](https://img.shields.io/badge/w3c-validated-blue
 )
 
-![Am I Responsive](docs/images/am-i-responsive.png)
+![Am I Responsive](assets/images/am-i-responsive.png)
 
 This website aims to provide information on what stunning landscape to explore within South Wales. This is particularly targeted at new visitors. It is centered around an interactive multiple choice quiz, aimed to tailor the users experiences to match them with their preferences and desires. It aims to be responsive across multiple devices.
 
@@ -58,9 +58,24 @@ This website aims to provide information on what stunning landscape to explore w
 
 ### Initial Discussion
 
-Discover South Wales is a website designed for potential first time visitors with limited knowledge of rural areas to explore. It's a simple design, centered round a short quiz, and it aims to give users a quick guide on where to go. By asking a set of 5 questions based on what the user's preferences are, the website acts as a personal guide, presenting one of eleven locations based on the user's results that would be well suited to the answers the user gives.
+Welcome to the Sports Quiz Website! This repository houses the code and assets for a dynamic sports trivia quiz platform that caters to sports enthusiasts of all levels. Whether you're a casual fan or a sports guru, this website offers an engaging and challenging experience to test your knowledge and explore the world of sports.
 
-There is an additional Map page, which gives the user an overall view of the suggested locations within South Wales. This also allows the user to explore more options if they are not satisfied with the recommendation from taking the quiz.
+#### Features
+
+- Interactive Quiz: Test your sports knowledge with a wide range of trivia questions spanning different sports, eras, and difficulty levels.
+
+- Arena Map: Explore an interactive Google Maps API-powered map featuring iconic sports arenas from around the world.
+
+- User-Friendly Design: Enjoy a seamless and intuitive user interface designed for easy navigation and engagement.
+
+- Responsive: Access the quiz and content on various devices, including desktops, tablets, and smartphones.
+
+- Score Tracking: Keep track of your quiz scores and compare them with other users on the global leaderboard.
+
+- User Accounts: Create and customize user profiles, track quiz history, and compete with friends.
+
+- Google Maps API Integration
+Our website leverages the Google Maps API to provide an immersive Arena Map experience. Users can explore and learn about legendary sports venues, access historical data, and gain insights into the world of sports architecture and history.
 
 #### Key Information for the site
 
@@ -213,29 +228,16 @@ The website consists of three pages, all of which are accessible from the naviga
 The quiz heading instructs  the user to take a short quiz on where to go. This is accompanied with a clear 'Start Quiz' button that navigates the user to the Quiz page. When hovered over the button creates a smooth transition from a green background to a mixture of green and brown, keeping in theme with the colour of the header and footer.
 
 *Quiz Page:*
-
-- When the user navigates to the quiz page they are greeted with the first question with instructions to select one of 3 answers below. When the answers are hovered over by the user the background colour disappears, and when the user selects an answer, it is highlighted in the green/brown mixture, indicating that this has been selected. This was put in place instead of radio buttons, so the user has a greater range to click on, rather than just aiming for a small radio button. A user may click between answers before deciding to move onto the next question. If a user doesn't select an answer and selects the 'next' button, an alert pops up urging the user to select an answer.
-- When the next button is hovered over, this too changes to a green/brown colour signifying to the user to click next.
-- Over the next set of questions, the initial instructions are removed. At the last question the user is greeted with a submit button, styled in the same way as the next button.
-- When the user submits their answers, the quiz questions are replaced all together with one of eleven possible results. These results are structured in the following order:
-  - A title featuring “Based on your recommendations, we recommend…”
-  - Place name title
-  - A brief description of what to expect
-  - An accompanying image of the location
-  - A link that opens up an external website in a separate window, giving the user more in depth detail about the hike and navigation. When the link is hovered over the background colour changes to white.
-- Beneath the results there are two short, but informative headlines. These signify to the user that if they're not happy with their recommended result they can navigate over to the maps page to explore more options. The navigation link is represented by a font awesome icon of a map/marker, which when hovered over changes from green to green/brown.
-- This is separated by a line divider, and underneath this there is an option for the user to start the quiz over if they wish to do so. This is represented in the familiar button style marked as 'Start over', keeping in theme with the rest of the website. By clicking this button, the user is taken to the first mutliple choice question again.
+Our sports quiz is not just a game; it's a journey through the exciting world of sports knowledge. The quiz challenges enthusiasts of all levels to test their expertise, recall legendary moments, and dive into the rich tapestry of sports history and culture. What sets our quiz apart is its unique integration with the Google Maps API, allowing users to explore iconic sports arenas worldwide. As you answer questions and advance through the quiz, you'll unlock the interactive Arena Map, where you can virtually visit legendary stadiums, access historical information, and learn fascinating facts about these sporting meccas. With a variety of difficulty levels, user-friendly design, and responsive functionality, our quiz offers an engaging and educational experience for sports fans, whether they're newcomers or die-hard enthusiasts. Join us in celebrating the love of sports and challenge yourself to become a sports trivia champion.
 
 *Map Page:*
 
-- The Map page can be accessed via the navigation link Map, or the font awesome map icon when the user receives their recommended results on the quiz page.
-- This page features Google Maps, centered on South Wales with eleven markers numbered 1 - 11. Each marker, when clicked on once will display the name of the marker's location. When double clicked, this also takes the user to an external website in a separate window, with more details on the location. The user is able to zoom in and out, and move around the maps, to explore each marker available.
-- If, due to poor internet connection, the maps are loading slowly, I've implemented simple loading dots just below the navigation bar, to indicate to the user that the maps are loading.
-- Above the Google Maps are simple instructions, represented with an 'information' font awesome icon ('i'), telling the user to “Click the map markers to view place names, and double click them for more information”. This gives the user clarity on how to navigate through Google Maps.
+- The Map page can be accessed via the navigation link Arenas.
+-  Embark on a virtual journey to some of the world's most iconic sports arenas. Marvel at the grandeur of legendary stadiums that have witnessed thrilling victories and historic moments. With interactive markers, informative details, and captivating imagery, this page lets you explore these hallowed grounds from the comfort of your screen. Whether you're a die-hard fan or simply curious about these sporting meccas, the Arena Map is your passport to the heart of the action. Dive in and discover the epic history of sports venues that have left an indelible mark on the world of athletics.
 
 *404 Error Page:*
 
-- The 404 page Features a print of a figure walking through the hills with a couple of trees. This image is sandwiched between two informative headings reassuring the user that they can navigate back to the home page (featured at the bottom), to continue using the website.
+- This 404 page provides a friendly and lighthearted approach to help users navigate back to the main website when they encounter a page that doesn't exist.
 
 *Future Implementations:*
 
@@ -293,7 +295,7 @@ The quiz heading instructs  the user to take a short quiz on where to go. This i
 
 - Testing with Assistive Technologies: Regularly test your website with screen readers, keyboard navigation, and other assistive technologies to identify and address accessibility issues.
 
-- Semantic HTML: Use semantic HTML elements (e.g., <nav>, <header>, <main>, <button>) to structure your web content logically. This aids users in understanding the content's organization.
+- Semantic HTML: Use semantic HTML elements (e.g., 'nav', 'header', 'main', 'button') to structure your web content logically. This aids users in understanding the content's organization.
 
 - Skip to Content Link: Provide a "Skip to Content" link at the beginning of the page that allows users to bypass repetitive navigation and jump directly to the main quiz content.
 
