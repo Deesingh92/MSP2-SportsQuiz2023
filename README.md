@@ -154,9 +154,9 @@ There is an additional Map page, which gives the user an overall view of the sug
 
 ### Colour Scheme
 
-![Small switch palette from ColorSpace](docs/images/small-switch-palette.png)
+![Small switch palette from ColorSpace](assets/images/small-spot-palette.png)
 
-Discover South Wales uses this small switch palette, pulled from [ColorSpace](https://mycolor.space/?hex=%23096A2E&sub=1), and generated from #096A2E, pulled from the logo colour chart below.
+The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart below.
 
 
 
@@ -239,20 +239,71 @@ The quiz heading instructs  the user to take a short quiz on where to go. This i
 
 *Future Implementations:*
 
-- Future goals include creating an Instagram page that allows users to share images of where they have been, tagging @DiscoverSouthWales or #DiscoverSouthWales, for a chance to get their photo featured on the official Instagram page. This will encourage new users to stumble across the Instagram page, in turn leading them to this website to participate in the quiz.
-- I want to add more place results, and potentially replace old ones, so that returning users can continue exploring other places to go. In order to decide which places are to be replaced, I would collect the quiz results data and determine which results were coming up the least, replacing these with new suggestions.
-- I want to be able to extend the quiz, asking further questions, so that the user gets an even more specified result, tailoring to their outdoor wants and desires.
+- More Quiz Categories: Expand the quiz categories to cover a broader range of sports, including niche and less-known sports. This allows users to explore a variety of sports topics.
+
+- User Accounts: Implement user account functionality, allowing users to create profiles, track their quiz history, and compete with friends or the global community for high scores.
+
+- Daily Challenges: Offer daily or weekly quiz challenges with unique themes and questions. Users can participate to earn rewards, badges, or special achievements.
+
+- Multiplayer Mode: Introduce a multiplayer mode where users can compete against each other in real-time quizzes. This adds a competitive and social dimension to the quiz experience.
+
+- User-Generated Content: Allow users to submit their quiz questions and trivia facts. Implement a review system to ensure accuracy and quality, then feature user-generated content in the quiz.
+
+- Enhanced Arena Map: Continuously update the interactive arena map with additional markers, facts, and historical information about sports venues worldwide.
+
+- Gamification: Gamify the user experience by incorporating features like leaderboards, virtual rewards, and challenges to keep users engaged and motivated.
+
+- Mobile App: Consider developing a mobile app version of the quiz for a seamless and convenient experience on smartphones and tablets.
+
+- Community Forums: Expand the community aspect of the website by creating dedicated forums or discussion boards where users can share sports-related insights, stories, and opinions.
+
+1- Advanced Analytics: Implement analytics tools to gather user data and insights, helping you understand user behavior, preferences, and areas for improvement.
+
+- Personalized Recommendations: Use user data to provide personalized quiz recommendations, content, and challenges based on individual interests and quiz history.
+
+- Monetization Options: Explore revenue-generating options, such as premium quizzes, ad placements, or partnerships with sports-related brands, to support the sustainability of the website.
+
+- Social Integration: Enhance social media integration by allowing users to share quiz results, achievements, and interesting sports facts directly on their social profiles.
+
+- Accessibility Improvements: Continuously audit and improve website accessibility to ensure that it remains inclusive for users with disabilities.
+
+- Content Partnerships: Collaborate with sports organizations, leagues, or athletes to provide exclusive content, interviews, or behind-the-scenes access for users.
+
+- Language Support: Consider offering the quiz and content in multiple languages to expand your global user base.
+
+- Feedback Mechanism: Implement a user feedback mechanism to gather suggestions and comments, enabling users to contribute to the website's growth.
 
 ### Accessibility
 
-I have ensure that this website is as accessible friendly as possible, I have done the following to achieve this:
+- Keyboard Navigation: Ensure that all interactive elements, including quiz questions, options, and buttons, can be accessed and used via keyboard navigation. Users should be able to move through the quiz and interact with all elements without relying on a mouse.
 
-- Used semantic HTML.
-- Used visually hidden text to describe background images in CSS, where an alt attribute cannot be supplied.
-- Included aria-label for website navigation to describe to the screen reader where the user is being taken to.
-- Used alt attributes to images in HTML to describe them.
-- Using the [WebAIM](https://webaim.org/resources/contrastchecker/) colour contrast checker to ensure all body text is legible with sufficient contrast.
+- Focus States: Implement clear and visible focus states for interactive elements. When users navigate through the quiz using a keyboard, they should be able to see which element is currently in focus.
 
+- Screen Reader Compatibility: Make sure that all quiz questions, options, and content are properly labeled and structured for screen readers. Use semantic HTML elements and provide alternative text for images and media.
+
+- Color Contrast: Ensure sufficient color contrast between text and background elements to make content readable for users with visual impairments. Test color combinations to meet accessibility guidelines.
+
+- Alt Text for Images: Include descriptive alternative text (alt text) for all images, including icons and buttons. Alt text should convey the purpose or content of the image to users who cannot see it.
+
+- ARIA Roles and Attributes: Use Accessible Rich Internet Applications (ARIA) roles and attributes to enhance the accessibility of dynamic content and interactive elements, such as the quiz.
+
+- Captions and Transcripts: If your website includes videos or audio content, provide closed captions for videos and transcripts for audio files. This benefits users with hearing impairments.
+
+- Text Resizing: Ensure that users can easily resize text without loss of content or functionality. Avoid fixed font sizes or layouts that break when text is enlarged.
+
+- Testing with Assistive Technologies: Regularly test your website with screen readers, keyboard navigation, and other assistive technologies to identify and address accessibility issues.
+
+- Semantic HTML: Use semantic HTML elements (e.g., <nav>, <header>, <main>, <button>) to structure your web content logically. This aids users in understanding the content's organization.
+
+- Skip to Content Link: Provide a "Skip to Content" link at the beginning of the page that allows users to bypass repetitive navigation and jump directly to the main quiz content.
+
+- Error Handling: Ensure that error messages, such as incorrect quiz answers, are clear and provide guidance on how to correct them.
+
+- Consistent Layout: Maintain a consistent and predictable layout and navigation structure throughout the website. Users should be able to understand and anticipate the placement of elements.
+
+- Responsive Design: Ensure that the website is responsive and adapts to different screen sizes and orientations, making it accessible on various devices.
+
+- User Testing: Conduct accessibility testing with users who have disabilities to gather feedback and make improvements based on their real-world experiences.
 - - -
 
 ## Technologies Used
@@ -263,7 +314,7 @@ HTML, CSS and Javascript were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-- Pencil - Used to create wireframes.
+- Balsamiq - Used to create wireframes.
 
 - Git - For version control.
 
@@ -271,7 +322,7 @@ HTML, CSS and Javascript were used to create this website.
 
 - Logo.com - Used to design and create a logo
 
-- Pixabay.com - used to download image artwork for website
+- Pexels.com - used to download image artwork for website
 
 - [My Color Space](https://mycolor.space/) - To choose the colours used for the website.
 
@@ -279,23 +330,17 @@ HTML, CSS and Javascript were used to create this website.
 
 - [Google Fonts](https://fonts.google.com/) - To import and use the fonts from the website.
 
-- [Flexbox Library](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-tricks) - Used as a prompt and guidance for website structure and display.
-
-- [Contrast Checker](https://webaim.org/resources/contrastchecker/) - Ran tests on all text against background colour to ensure contrast checker past.
 
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Used for inserting a dropdown menu in mobile responsive design.
 
-- [BIRME](https://www.birme.net/) - To convert images from jpeg to webp images to improve lighthouse performance.
 
-- [TinyPNG](https://tinypng.com/) - To compress large image files on website.
-
-- [Am I Responsive](https://ui.dev/amiresponsive?url=https://clarar93.github.io/Discover-South-Wales/index.html) - To show the website on a range of devices.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://deesingh92.github.io/MSP2-SportsQuiz2023/) - To show the website on a range of devices.
 
 - Google Dev Tools - To troubleshoot and test various features, and solve issues with responsiveness and styling.
 
 - [Color Hex](https://www.color-hex.com/color/79804f) - To find a lighter colour tint for the header and footer to pass the contrast checker.
 
-- [Favicon](https://favicon.io/emoji-favicons/evergreen-tree) - Used evergreen tree emoji favicon for website.
+- [Favicon](https://favicon.io/) - Used timer emoji favicon for website.
 
 ## Deployment & Local Development
 
@@ -304,7 +349,7 @@ HTML, CSS and Javascript were used to create this website.
 Github Pages was used to deploy the live website. The instructions are as followed:
 
 1. Log in (sign up) to Github.
-2. Search for this repository, Discover-South-Wales.
+2. Search for this repository, MSP2-SportsQuiz2023.
 3. Navigate to the settings tab.
 4. On the left hand menu click on the pages link.
 5. In the source section, select main from the drop down menu under Branch.
@@ -313,19 +358,14 @@ Github Pages was used to deploy the live website. The instructions are as follow
 
 ### Local Development
 
-#### How to Fork
 
-To fork the paddle-adventures repository:
-
-1. Go to the GitHub repository.
-2. Click on Fork button in the upper right-hand corner.
 
 #### How to Clone
 
-To clone the Discover-South-Wales repository:
+To clone the Sports Quiz 2023 repository:
 
 1. Log in (sign up) to Github.
-2. Search for this repository, Discover-South-Wales.
+2. Search for this repository, MSP2-SportsQuiz2023.
 3. Select the code button and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown to your clipboard.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied. Select enter.
@@ -334,7 +374,6 @@ To clone the Discover-South-Wales repository:
 
 ## Testing
 
-For all testing, please refer to [TESTING.md](TESTING.md)
 
 - - -
 
@@ -344,56 +383,32 @@ For all testing, please refer to [TESTING.md](TESTING.md)
 
 - [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/components/dropdowns/) - Code used to implement a dropdown menu bar when viewed on a mobile device.
   
-- [Tutorials Point](https://www.tutorialspoint.com/how-to-uncheck-a-radio-button-using-javascript-jquery#:~:text=In%20the%20clearRadio()%20function,to%20uncheck%20the%20radio%20button.) - Code used when researching how to uncheck a radio button when the user arrives at a new question within the quiz.
+- [Fisher Yates Shuffle](https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/) - Code used when researching how to uncheck a radio button when the user arrives at a new question within the quiz.
 
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-add-numbers-in-javascript-arrays/ ) - Code used to add and get the total sum of the numbers in userAnswer array.
 
 - [W3schools HTML DOM Element classList](https://www.w3schools.com/jsref/prop_element_classlist.asp) - Code used to hide quiz questions div and display quiz answers div.
 
-- [Stack Overflow, min/max value](https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value) - Code logic applied to quiz scores, I converted the range of 5 to 15 to an index from 0 - 10 for easier accessibility.
+- [Google maps API documentation](https://developers.google.com/maps/documentation/javascript/markers) - Code used for importing map and markers.
 
-- [Google maps API documentation](https://developers.google.com/maps/documentation/javascript/markers
-) - Code used for importing map and markers.
-
-- [Stack Overflow, window.open method](https://stackoverflow.com/questions/4373212/open-google-map-in-new-window) - Code used for window.open method, applied to google maps API.
-
-- [Stack Overflow, replace radio buttons and style](https://stackoverflow.com/questions/4641752/css-how-to-style-a-selected-radio-buttons-label) - Used code to remove radio buttons and replace with stylised highlighted questions which a user can select and submit instead.
-
-- [Stack Overflow, Loading dots](https://stackoverflow.com/questions/4639716/dot-dotdot-dotdotdot-as-loading
-) - Used code to create and customise loading dots before google maps api loads.
 
 - [Design Shack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/) - Used code to assist with correct box shadow placement.
 
-- [Accessiblity Developer Guide](https://www.accessibility-developer-guide.com/knowledge/aria/bad-practices/) - Used visually hidden code to replace aria-label. I used this code in my first milestone project, which proved effective for the background images in style.css
-
-- [Plain English](https://plainenglish.io/blog/passing-arguments-to-event-listeners-in-javascript-1a81bc397ecb) -
-I used code from Plain English as a guide to amending an event listener and passing an argument within.
+- [w3schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) -
+Creating event listeners for my start game button.
 
 ### Content
 
-Content was written by me, with some assistance from 11 external websites accesible through the results card on the Quiz page, and Markers on the Maps page. The following list of websites are as followed:
+Content was written by me, with some assistance from some external website, I will list them below:
 
-- <https://www.visitswanseabay.com/inspirations/beach-guide/rhossili-bay-beach/>
+- <https://www.radiotimes.com/quizzes/pub-quiz-sport/>
   
-- <https://discovertheoutdoors.co.uk/monknash-beach/>
+- <https://kwizzbit.com/sport-quiz-questions-and-answers/>
   
-- <http://edtechie.net/tonwalks/castell-coch/castell-coch-taff-trail/>
+- <https://ahaslides.com/blog/40-free-sports-quiz-questions-and-answers/>
   
-- <https://www.visitpembrokeshire.com/explore-pembrokeshire/beaches/monkstone>
+- <https://quizglobal.com/quizplay/quizplayqanda/Sports%20Pub%20Quiz%20Questions%20and%20Answers>
   
-- <https://www.waymarking.com/waymarks/WMA9ZE_Sgwd_Ddwli_Uchaf_Upper_Gushing_Falls_Pontneddfechan_Powys_Wales>
-  
-- <https://www.walkmyworld.com/posts/fan-y-big>
-  
-- <https://www.themountainguide.co.uk/wales/gwaun-cerrig-llwydion.htm>
-  
-- <https://www.visitwales.com/things-do/adventure-and-activities/walking/crowning-glory-4-ways-walk-pen-y-fan>
-  
-- <https://ohwhataknight.co.uk/blog/how-to-reach-sgwd-einion-gam-waterfall>
-  
-- <https://www.alltrails.com/en-gb/trail/wales/powys/fan-fawr-and-beacons-reservoir>
-  
-- <https://www.nationaltrust.org.uk/visit/wales/brecon-beacons/brecon-beacons-horseshoe-ridge-walk>
 
 
 ### Acknowledgement
