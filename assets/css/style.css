@@ -40,6 +40,16 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Styles for navbar */
+.navbar {
+    background-color: rgb(69, 122, 213);
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+}
+
 /* Styles for footer */
 footer {
     background-color: rgb(69, 122, 213);
@@ -179,11 +189,3 @@ footer h3 {
     text-align: center; 
 }
 
-.navbar {
-    background-color: rgb(69, 122, 213);
-}
-
-.navbar-brand {
-    letter-spacing: 2px;
-    font-family: 'Anton', sans-serif;
-}
