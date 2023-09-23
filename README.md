@@ -13,6 +13,8 @@
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
+## Welcome
+
 Our primary aim is to provide an engaging and educational platform where sports enthusiasts can challenge their knowledge, explore the world of sports through an interactive Arena Map, and foster a vibrant community of like-minded fans. We strive to create an inclusive and user-friendly environment that appeals to both newcomers and seasoned sports aficionados, promoting learning, competition, and the joy of sports trivia. With a commitment to accessibility, usability, and future enhancements, our goal is to make the Sports Quiz Website the go-to destination for sports enthusiasts seeking fun and knowledge.
 
 [View Sports Quiz 2023 on Github](https://github.com/Deesingh92/MSP2-SportsQuiz2023)
@@ -131,6 +133,7 @@ Our website leverages the Google Maps API to provide an immersive Arena Map expe
 - Access the Website Responsively: Visitors expect the website to work seamlessly on various devices, including desktop computers, tablets, and mobile phones.
 
 #### Returning Visitor Goals
+
 - Continue Playing and Competing: Returning visitors aim to pick up where they left off in the quiz. They want to continue playing, answering questions, and improving their scores.
 
 - Explore New Questions: Users who have played before are interested in encountering new and challenging questions. They hope to see a fresh set of quiz questions to keep the game exciting.
@@ -152,8 +155,6 @@ Our website leverages the Google Maps API to provide an immersive Arena Map expe
 
 - Enjoy a Seamless Experience: Returning visitors expect the website to provide a consistent and responsive experience across all devices, making it easy to play the quiz and explore content.
 
-
-
 #### Frequent Visitor Goals
 
 - Daily Quiz Challenge: Frequent visitors aim to make the sports quiz a daily or regular challenge. They want to test their sports knowledge frequently and maintain a consistent presence on the website.
@@ -169,7 +170,7 @@ Our website leverages the Google Maps API to provide an immersive Arena Map expe
 
 ![Small switch palette from ColorSpace](assets/images/small-spot-palette.png)
 
-The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart above. I chose the color palette generated from #4059FD for my sports quiz website for several compelling reasons. This specific shade of blue, with its hexadecimal representation, exudes a sense of trust, reliability, and professionalism—qualities that are essential for a sports-related platform. Additionally, blue is often associated with sports and athleticism, making it a natural choice. The palette's deep blue as the primary color conveys a sense of stability and calmness, providing an ideal backdrop for the quiz and information presented on the website. Moreover, the monochromatic variations of this blue, ranging from lighter tints to darker shades, allow for visual hierarchy and readability in the design, ensuring that users can easily navigate and engage with the content. Overall, this color palette not only aligns with the sports theme but also creates a visually pleasing and user-friendly experience for visitors to the site.
+The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart above. I chose the color palette generated from #4059FD for my sports quiz website for several compelling reasons. This specific shade of blue, with its hexadecimal representation, exudes a sense of trust, reliability, and professionalism qualities that are essential for a sports-related platform. Additionally, blue is often associated with sports and athleticism, making it a natural choice. The palette's deep blue as the primary color conveys a sense of stability and calmness, providing an ideal backdrop for the quiz and information presented on the website. Moreover, the monochromatic variations of this blue, ranging from lighter tints to darker shades, allow for visual hierarchy and readability in the design, ensuring that users can easily navigate and engage with the content. Overall, this color palette not only aligns with the sports theme but also creates a visually pleasing and user-friendly experience for visitors to the site.
 
 
 
@@ -210,30 +211,30 @@ I used Google Fonts for the following font:
 
 #### Ubuntu
 
-Humanist Sans-Serif Design: "Ubuntu" is a humanist sans-serif font, which means it has a balanced and approachable design. This can contribute to a friendly and welcoming atmosphere on your website, making it more user-friendly.
+- Humanist Sans-Serif Design: "Ubuntu" is a humanist sans-serif font, which means it has a balanced and approachable design. This can contribute to a friendly and welcoming atmosphere on my website, making it more user-friendly.
 
-Readability: The font's design prioritizes readability, making it a suitable choice for body text and content-heavy sections of your website. Users can easily read and understand the text, which is essential for a quiz website where information is key.
+- Readability: The font's design prioritizes readability, making it a suitable choice for body text and content-heavy sections of your website. Users can easily read and understand the text, which is essential for a quiz website where information is key.
 
-Neutral Aesthetic: "Ubuntu" has a neutral and unobtrusive aesthetic. It doesn't draw excessive attention to itself, allowing users to focus on the content and functionality of your website, such as the quiz questions and answers.
+- Neutral Aesthetic: "Ubuntu" has a neutral and unobtrusive aesthetic. It doesn't draw excessive attention to itself, allowing users to focus on the content and functionality of my website, such as the quiz questions and answers.
 
-Versatility: "Ubuntu" is a versatile font that works well in various design contexts. It can be used for both headings and body text, maintaining a consistent typography style throughout your website.
+- Versatility: "Ubuntu" is a versatile font that works well in various design contexts. It can be used for both headings and body text, maintaining a consistent typography style throughout your website.
 
-Accessibility: Accessibility is a critical consideration in web design. "Ubuntu" offers good legibility and readability, which is important for users with visual impairments or reading difficulties.
+- Accessibility: Accessibility is a critical consideration in web design. "Ubuntu" offers good legibility and readability, which is important for users with visual impairments or reading difficulties.
 
-International Support: "Ubuntu" supports multiple languages and character sets, making it suitable for a global audience. If your website caters to users from diverse linguistic backgrounds, this font choice can be advantageous.
+- International Support: "Ubuntu" supports multiple languages and character sets, making it suitable for a global audience. If my website caters to users from diverse linguistic backgrounds, this font choice can be advantageous.
 
-Modern and Open Source: "Ubuntu" is a modern and open-source font, aligning with the principles of accessibility and inclusivity. It's freely available and widely supported, making it accessible to web designers and developers.
+- Modern and Open Source: "Ubuntu" is a modern and open-source font, aligning with the principles of accessibility and inclusivity. It's freely available and widely supported, making it accessible to web designers and developers.
 
-Web Compatibility: "Ubuntu" is a web-safe font, meaning it's well-supported by most web browsers and devices, ensuring consistent display for your users.
+- Web Compatibility: "Ubuntu" is a web-safe font, meaning it's well-supported by most web browsers and devices, ensuring consistent display for your users.
 
-Consistency: Maintaining consistent typography across your website enhances its visual coherence and professionalism. "Ubuntu" can help you achieve this consistency.
+- Consistency: Maintaining consistent typography across my website enhances its visual coherence and professionalism. "Ubuntu" can help you achieve this consistency.
 
-Personal Preference: Ultimately, font choices can also be influenced by personal preference and the overall aesthetic you wish to create for your website. If "Ubuntu" aligns with your vision, it can be a suitable choice.
+- Personal Preference: Ultimately, font choices can also be influenced by personal preference and the overall aesthetic you wish to create for your website. If "Ubuntu" aligns with your vision, it can be a suitable choice.
 
-The decision to use the "Ubuntu" font should align with your website's design goals and the user experience you want to provide. It's a practical and readable option that can contribute to a positive and user-friendly design.
+- The decision to use the "Ubuntu" font should align with the website's design goals and the user experience I wanted to provide. It's a practical and readable option that can contribute to a positive and user-friendly design.
 
 
-Humanist Sans-Serif Design: I appreciate that "Ubuntu" has a humanist sans-serif design, which gives it a balanced and friendly appearance. This design choice contributes to a welcoming atmosphere on my website.
+- Humanist Sans-Serif Design: I appreciate that "Ubuntu" has a humanist sans-serif design, which gives it a balanced and friendly appearance. This design choice contributes to a welcoming atmosphere on my website.
 
 ### Imagery
 
@@ -243,21 +244,17 @@ Humanist Sans-Serif Design: I appreciate that "Ubuntu" has a humanist sans-serif
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page - Desktop](docs/wireframes/home/home_page_desktop.png) |
-[Home Page - Tablet](docs/wireframes/home/home_tablet.png) |
-[Home Page - Mobile](docs/wireframes/home/home_mobile.png)
+[Instructions Page - Desktop](documentation/wireframes/info-wireframe-desktop.png) |
+[Instructions Page - Tablet](documentation/wireframes/info-wireframe-tablet.png) |
+[Insructions Page - Mobile](documentation/wireframes/info-wireframe-mobile.png)
 
-[Quiz Page (Questions) - Desktop](docs/wireframes/quiz/quiz_questions_desktop_.png) |
-[Quiz Page (Questions) - Tablet](docs/wireframes/quiz/quiz_tablet_.png) |
-[Quiz Page (Questions) - Mobile](docs/wireframes/quiz/quiz_questions_mobile_.png)
+[Quiz Page (Questions) - Desktop](documentation/wireframes/quiz-wireframe-desktop.png) |
+[Quiz Page (Questions) - Tablet](documentation/wireframes/quiz-wireframe-tablet.png) |
+[Quiz Page (Questions) - Mobile](documentation/wireframes/quiz-wireframe-mobile.png)
 
-[Quiz Page (Answers) - Desktop](docs/wireframes/quiz/quiz_answers_desktop_.png) |
-[Quiz Page (Answers) - Tablet](docs/wireframes/quiz/quiz_answers_tablet_.png) |
-[Quiz Page (Answers) - Mobile](docs/wireframes/quiz/quiz_answers_mobile_.png)
-
-[Map Page - Desktop](docs/wireframes/maps/maps_desktop_.png) |
-[Map Page - Tablet](docs/wireframes/maps/maps_tablet_.png) |
-[Map Page - Mobile](docs/wireframes/maps/maps_mobile_.png)
+[Map Page - Desktop](documentation/wireframes/map-wireframe-desktop.png) |
+[Map Page - Tablet](documentation/wireframes/map-wireframe-tablet.png)|
+[Map Page - Mobile](documentation/wireframes/map-wireframe-mobile.png)
 
 The final website design has maintained the simple structure as shown in the wireframes, with a few minor changes here and there. I wanted to keep the design quite minimalistic as I wanted to focus more on implementing javascript code to the Quiz and Map page.
 
