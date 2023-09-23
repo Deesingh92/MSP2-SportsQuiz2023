@@ -6,10 +6,8 @@
 )
 ![Github languages](https://img.shields.io/badge/languages-3-yellow
 )
-
 ![Github html](https://img.shields.io/badge/html-40.2%25-green
 )
-
 ![Github w3c](https://img.shields.io/badge/w3c-validated-blue
 )
 
@@ -179,7 +177,7 @@ The sports quiz uses this small spot palette, pulled from [ColorSpace](https://m
 
 I used Google Fonts for the following font:
 
-### Anton
+#### Anton
 - Bold and Attention-Grabbing: "Anton" is a bold and eye-catching font with thick, heavy strokes. It can instantly capture the viewer's attention and make important elements, such as headings and titles, stand out on the page. This can be particularly effective in a sports-themed website where you want to convey energy and excitement.
 
 - Modern and Stylish: "Anton" has a modern and stylish appearance, which can give your website a contemporary and sophisticated look. This can be appealing to users who appreciate a trendy and visually pleasing design.
@@ -192,7 +190,7 @@ I used Google Fonts for the following font:
 
 - Variety: Using "Anton" for headings and titles while using a different font for body text provides variety in typography, adding visual interest to your website's design.
 
-### Poppins
+#### Poppins
 
 - Readability: "Poppins" is known for its excellent readability, making it a great choice for body text and other content where readability is crucial. Its clean and straightforward design ensures that users can easily consume information without strain.
 
@@ -210,7 +208,7 @@ I used Google Fonts for the following font:
 
 - Compatibility: "Poppins" is a web-safe font, meaning it's widely supported by web browsers and devices. This ensures that your chosen font will display consistently for most users.
 
-### Ubuntu
+#### Ubuntu
 
 Humanist Sans-Serif Design: "Ubuntu" is a humanist sans-serif font, which means it has a balanced and approachable design. This can contribute to a friendly and welcoming atmosphere on your website, making it more user-friendly.
 
@@ -236,6 +234,7 @@ The decision to use the "Ubuntu" font should align with your website's design go
 
 
 Humanist Sans-Serif Design: I appreciate that "Ubuntu" has a humanist sans-serif design, which gives it a balanced and friendly appearance. This design choice contributes to a welcoming atmosphere on my website.
+
 ### Imagery
 
 [Pexels](https://pexels.com/). Contents free images.
@@ -292,19 +291,19 @@ The website consists of three pages, all of which are accessible from the naviga
 
 *Info Area:*
 
-- The "Info" section serves as your gateway to understanding how the Sports Quiz Website works. Here, you'll find step-by-step instructions on how to maximize your experience. Start by selecting your preferred difficulty level—easy, medium, or hard—from the home page. These levels offer varying degrees of challenge, so choose the one that suits your sports knowledge best. Once your difficulty level is set, the quiz will begin. You'll be presented with a series of sports-related questions, each with multiple-choice answer options. Carefully read each question and click on the answer you believe is correct. If you answer correctly, your score will increase, and you'll proceed to the next question. If you're unsure or make a mistake, don't worry; you can always learn from the questions and answers. Continue answering questions until you've completed the quiz for your chosen difficulty level. After the final question, you'll receive your quiz results, including your score.
+The "Info" section serves as your gateway to understanding how the Sports Quiz Website works. Here, you'll find step-by-step instructions on how to maximize your experience. Start by selecting your preferred difficulty level—easy, medium, or hard—from the home page. These levels offer varying degrees of challenge, so choose the one that suits your sports knowledge best. Once your difficulty level is set, the quiz will begin. You'll be presented with a series of sports-related questions, each with multiple-choice answer options. Carefully read each question and click on the answer you believe is correct. If you answer correctly, your score will increase, and you'll proceed to the next question. If you're unsure or make a mistake, don't worry; you can always learn from the questions and answers. Continue answering questions until you've completed the quiz for your chosen difficulty level. After the final question, you'll receive your quiz results, including your score.
 
 *Quiz Page:*
+
 Our sports quiz is not just a game; it's a journey through the exciting world of sports knowledge. The quiz challenges enthusiasts of all levels to test their expertise, recall legendary moments, and dive into the rich tapestry of sports history and culture. What sets our quiz apart is its unique integration with the Google Maps API, allowing users to explore iconic sports arenas worldwide. As you answer questions and advance through the quiz, you'll unlock the interactive Arena Map, where you can virtually visit legendary stadiums, access historical information, and learn fascinating facts about these sporting meccas. With a variety of difficulty levels, user-friendly design, and responsive functionality, our quiz offers an engaging and educational experience for sports fans, whether they're newcomers or die-hard enthusiasts. Join us in celebrating the love of sports and challenge yourself to become a sports trivia champion.
 
 *Map Page:*
 
-- The Map page can be accessed via the navigation link Arenas.
--  Embark on a virtual journey to some of the world's most iconic sports arenas. Marvel at the grandeur of legendary stadiums that have witnessed thrilling victories and historic moments. With interactive markers, informative details, and captivating imagery, this page lets you explore these hallowed grounds from the comfort of your screen. Whether you're a die-hard fan or simply curious about these sporting meccas, the Arena Map is your passport to the heart of the action. Dive in and discover the epic history of sports venues that have left an indelible mark on the world of athletics.
+The Map page can be accessed via the navigation link Arenas. Embark on a virtual journey to some of the world's most iconic sports arenas. Marvel at the grandeur of legendary stadiums that have witnessed thrilling victories and historic moments. With interactive markers, informative details, and captivating imagery, this page lets you explore these hallowed grounds from the comfort of your screen. Whether you're a die-hard fan or simply curious about these sporting meccas, the Arena Map is your passport to the heart of the action. Dive in and discover the epic history of sports venues that have left an indelible mark on the world of athletics.
 
 *404 Error Page:*
 
-- This 404 page provides a friendly and lighthearted approach to help users navigate back to the main website when they encounter a page that doesn't exist.
+This 404 page provides a friendly and lighthearted approach to help users navigate back to the main website when they encounter a page that doesn't exist.
 
 *Future Implementations:*
 
@@ -388,8 +387,6 @@ HTML, CSS and Javascript were used to create this website.
 - Git - For version control.
 
 - Github - To save and store the files for the website.
-
-- Logo.com - Used to design and create a logo
 
 - Pexels.com - used to download image artwork for website
 
