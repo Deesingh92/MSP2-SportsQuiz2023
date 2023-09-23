@@ -437,14 +437,15 @@ To clone the Sports Quiz 2023 repository:
 ## Testing
 |Page|Device|Lighthouse Result|
 |---|---|---|
-|Index|Desktop|![Index Desktop Results (Original)](documentation/testing/lighthouse-testing-index-desktop.png)|
 |Index|Desktop|![Index Desktop Results (Updated)](documentation/testing/lighthouse-testing-index-desktop1.png)|
 |Index|Mobile|![Index Mobile Results](documentation/testing/lighthouse-testing-index-mobile.png)|
 |Map|Desktop|![Arenas Desktop Results](documentation/testing/lighthouse-testing-map-desktop.png)|
 |Map|Mobile|![Arenas Mobile Results](documentation/testing/lighthouse-testing-map-mobile.png)|
-|404|Mobile|![404 Mobile Results](documentation/lighthouse/404_mobile.png)|
-|404|Desktop|![404 Desktop Results](documentation/lighthouse/404_desktop.png)|
-
+|404|Desktop|![404 Desktop Results](documentation/testing/lighthouse-testing-404-desktop.png)|
+|404|Mobile|![404 Mobile Results](documentation/testing/lighthouse-testing-404-mobile.png)|
+|w3 HTML Validation|![HTML Validation](documentation/testing/html-validation.png)|
+|w3 css Validation|![css Validation](documentation/testing/css-validation.png)|
+|JSHINT|![JsHint Validation](documentation/testing/jshint-test-result.png)|
 - - -
 
 ## Credits
