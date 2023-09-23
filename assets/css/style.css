@@ -157,6 +157,7 @@ footer h3 {
     display: block;
 }
 /* Styles for the start game button */
+
 #start-game {
     padding: 10px 20px;
     font-size: 18px;
@@ -171,12 +172,15 @@ footer h3 {
 }
 
 /* Styles for the score area */
+
 #score {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
 }
+
 /* Styles for the map area */
+
 #map {
     height: 500px;
     width: 100%;
