@@ -44,7 +44,9 @@ function loadQuestions() {
 // Function to randomize questions within each difficulty level
 function randomizeQuestions() {
     for (const difficulty in questions) {
-        questions[difficulty] = shuffleArray(questions[difficulty]);
+        if (questions.hasOwnProperty(difficulty)) { // Add this 'if' statement
+            questions[difficulty] = shuffleArray(questions[difficulty]);
+        }
     }
 }
 

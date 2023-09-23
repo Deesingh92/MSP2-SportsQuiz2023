@@ -435,7 +435,19 @@ To clone the Sports Quiz 2023 repository:
 - - -
 
 ## Testing
-
+|Page|Device|Lighthouse Result|
+|---|---|---|
+|Index|Desktop|![Index Desktop Results (Original)](documentation/testing/lighthouse-result.png)|
+|Index|Desktop|![Index Desktop Results (Updated)](documentation/testing/lighthouse-result1.png)|
+|Index|Mobile|![Index Mobile Results](documentation/lighthouse/index_desktop.png)|
+|Game|Mobile|![Game Mobile Results](documentation/lighthouse/game_mobile.png)|
+|Game|Desktop|![Game Desktop Results](documentation/lighthouse/game_desktop.png)|
+|Player Win|Mobile|![Player Win Mobile Results](documentation/lighthouse/player_win_mobile.png)|
+|Player Win|Desktop|![Player Win Desktop Results](documentation/lighthouse/player_win_desktop.png)|
+|Computer Win|Mobile|![Computer Win Mobile Results](documentation/lighthouse/computer_win_mobile.png)|
+|Computer Win|Desktop|![Computer Win Desktop Results](documentation/lighthouse/computer_win_desktop.png)|
+|404|Mobile|![404 Mobile Results](documentation/lighthouse/404_mobile.png)|
+|404|Desktop|![404 Desktop Results](documentation/lighthouse/404_desktop.png)|
 
 - - -
 
