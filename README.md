@@ -416,7 +416,7 @@ Github Pages was used to deploy the live website. The instructions are as follow
 4. On the left hand menu click on the pages link.
 5. In the source section, select main from the drop down menu under Branch.
 6. Select root from the drop down folder and click save.
-7. Your live Github pages site is now deployed at the following: [ClaraR93](https://clarar93.github.io/Discover-South-Wales/index.html)
+7. Your live Github pages site is now deployed at the following: [Deesingh92](https://github.com/Deesingh92/MSP2-SportsQuiz2023)
 
 ### Local Development
 
