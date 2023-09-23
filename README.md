@@ -169,7 +169,7 @@ Our website leverages the Google Maps API to provide an immersive Arena Map expe
 
 ![Small switch palette from ColorSpace](assets/images/small-spot-palette.png)
 
-The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart above.
+The sports quiz uses this small spot palette, pulled from [ColorSpace](https://mycolor.space/?hex=%234059FD&sub=1), and generated from #4059FD, pulled from the logo colour chart above. I chose the color palette generated from #4059FD for my sports quiz website for several compelling reasons. This specific shade of blue, with its hexadecimal representation, exudes a sense of trust, reliability, and professionalism—qualities that are essential for a sports-related platform. Additionally, blue is often associated with sports and athleticism, making it a natural choice. The palette's deep blue as the primary color conveys a sense of stability and calmness, providing an ideal backdrop for the quiz and information presented on the website. Moreover, the monochromatic variations of this blue, ranging from lighter tints to darker shades, allow for visual hierarchy and readability in the design, ensuring that users can easily navigate and engage with the content. Overall, this color palette not only aligns with the sports theme but also creates a visually pleasing and user-friendly experience for visitors to the site.
 
 
 
@@ -456,11 +456,21 @@ To clone the Sports Quiz 2023 repository:
 
 - [Google maps API documentation](https://developers.google.com/maps/documentation/javascript/markers) - Code used for importing map and markers.
 
+- [Real Python](https://realpython.com/python-quiz-application/#add-variety-to-your-quiz) -
+Helping with the script and layout of the quiz.
 
 - [Design Shack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/) - Used code to assist with correct box shadow placement.
 
 - [w3schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) -
 Creating event listeners for my start game button.
+
+- [Simple Steps Code](https://simplestepscode.com/javascript-quiz-tutorial/) -
+Helping with the script and layout of the quiz.
+
+- [Qualtrics](https://www.qualtrics.com/support/survey-platform/survey-module/block-options/question-randomization/) -
+Randomisation of questions.
+
+- [Reqbin](https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example#:~:text=To%20fetch%20JSON%20from%20the,resolves%20with%20a%20JSON%20object.) - Fetching JSON file to script.js.
 
 ### Content
 
