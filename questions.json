@@ -142,9 +142,9 @@
             "correctOption": "Los Angeles Lakers"
         },
         {
-            "question": "Who is the only boxer to win world titles in eight different weight divisions?",
-            "options": ["Muhammad Ali", "Mike Tyson", "Manny Pacquiao", "Floyd Mayweather Jr."],
-            "correctOption": "Manny Pacquiao"
+            "question": "Who holds the record for the most career home runs in Major League Baseball (MLB)?",
+            "options": ["Babe Ruth", "Barry Bonds", "Hank Aaron", "Mickey Mantle"],
+            "correctOption": "Barry Bonds"
         },
         {
             "question": "Who is the only boxer to win world titles in eight different weight divisions?",
