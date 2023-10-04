@@ -28,7 +28,7 @@ const usedQuestions = {
 
 // Function to fetch and load questions from the JSON file
 function loadQuestions() {
-    fetch("../questions.json")
+    fetch("./questions.json")
         .then((res) => res.json())
         .then((data) => {
             console.log(data);
