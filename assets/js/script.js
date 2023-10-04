@@ -7,8 +7,8 @@ const difficultyButtons = document.querySelectorAll(".difficulty button");
 const startGameButton = document.getElementById("start-game");
 
 // Audio elements for correct and incorrect answers with their sources
-const correctAudio = new Audio("../assets/audio/correct.mp3");
-const incorrectAudio = new Audio("../assets/audio/incorrect.mp3");
+const correctAudio = new Audio("./assets/audio/correct.mp3");
+const incorrectAudio = new Audio("./assets/audio/incorrect.mp3");
 
 let currentDifficulty = "easy";
 let currentQuestionIndex = 0;
